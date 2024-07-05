@@ -64,8 +64,8 @@ jobs:
       - name: Add CNAME
         run: echo "robinwang.com" > ./public/CNAME
         # uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
+        #with:
+        #  path: ./public
 
   # Deployment job
   deploy:
