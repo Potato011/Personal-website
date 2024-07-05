@@ -63,7 +63,7 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
       - name: Add CNAME
         run: echo "robinwang.com" > ./public/CNAME
-        uses: actions/upload-pages-artifact@v3
+        # uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
