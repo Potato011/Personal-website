@@ -62,7 +62,7 @@ jobs:
             --minify \
             --baseURL "https://robinwang.github.io/"         
       - name: Add CNAME
-        run: echo "robinwang.com" > ./public/CNAME
+        run: echo "robinwang.github.io" > ./public/CNAME
       - name: Upload artifact  
         uses: actions/upload-pages-artifact@v3
         with:
