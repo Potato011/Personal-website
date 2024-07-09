@@ -3,7 +3,7 @@ title: "CAD (Solidworks/Fusion)"
 date: "2024-07-05T03:24:40Z"
 draft: false
 cover:
-  image: "/posts/CAD/Test4.png"
+  image: "posts/CAD/Test4.png"
   alt: "cad cover"
   hidden: false
   hiddenInList: false
