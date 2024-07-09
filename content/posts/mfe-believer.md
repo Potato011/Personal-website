@@ -40,7 +40,7 @@ gimbal installed in the nose.
 
 # Airframe Construction
 
-![Airframe Assembly](20240411_191819.jpg)
+![Airframe Assembly](/static/mfe-believer/20240411_191819.jpg)
 
 The airframe arrived as several large foam parts and bags of smaller plastic, acrylic, and wood parts. I followed [ArxAngel's](https://arxangelrc.blogspot.com/2017/11/believer-1960mm-professional-mapping-fpv-platform-best-designed-aerial-platform.html) construction techniques, carefully glueing the major components together, using tape to hold them in place during the drying process. After everything dried out, I conducted a stress test (me shaking it a lot) and weighed it. One of the reasons why I picked this specific airframe was its proven flight efficiency and the low weight was a reassuring sign.
 
