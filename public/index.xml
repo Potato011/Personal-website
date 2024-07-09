@@ -2,121 +2,121 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Robin Wang</title>
-    <link>https://robinwang.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Robin Wang</description>
     <image>
       <title>Robin Wang</title>
-      <url>https://robinwang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://robinwang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.128.1</generator>
     <language>en</language>
     <lastBuildDate>Fri, 05 Jul 2024 03:24:40 +0000</lastBuildDate>
-    <atom:link href="https://robinwang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1:12 Scale GPS/Compass Guided RC Car</title>
-      <link>https://robinwang.github.io/posts/auto-car/</link>
+      <link>http://localhost:1313/posts/auto-car/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>https://robinwang.github.io/posts/auto-car/</guid>
+      <guid>http://localhost:1313/posts/auto-car/</guid>
       <description>A 1:12 scale rc buggy fitted with GPS/compass and proximity sensing hardware allowing for autonomous waypoint navigation</description>
     </item>
     <item>
       <title>3D Printing</title>
-      <link>https://robinwang.github.io/posts/3d-printing/</link>
+      <link>http://localhost:1313/posts/3d-printing/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>https://robinwang.github.io/posts/3d-printing/</guid>
+      <guid>http://localhost:1313/posts/3d-printing/</guid>
       <description>I&amp;rsquo;ve experimented a lot with 3d printing technologies and have constructed several rather unique machines.</description>
     </item>
     <item>
       <title>All in One Drone Control Terminal (Cyberdeck)</title>
-      <link>https://robinwang.github.io/posts/cyberdeck/</link>
+      <link>http://localhost:1313/posts/cyberdeck/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>https://robinwang.github.io/posts/cyberdeck/</guid>
+      <guid>http://localhost:1313/posts/cyberdeck/</guid>
       <description>A computer, FPV video system, SDR radio, RC transmitter, and power system enclosed in a weatherprood case</description>
     </item>
     <item>
       <title>Bikepacking Adventures</title>
-      <link>https://robinwang.github.io/posts/bike-packing/</link>
+      <link>http://localhost:1313/posts/bike-packing/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>https://robinwang.github.io/posts/bike-packing/</guid>
+      <guid>http://localhost:1313/posts/bike-packing/</guid>
       <description>I&amp;rsquo;m a bikepacking enthusiast and have gone on many trips exploring the surronding areas. Biking through the natural beauty is always a great experience.</description>
     </item>
     <item>
       <title>CAD (Solidworks/Fusion)</title>
-      <link>https://robinwang.github.io/posts/cad/</link>
+      <link>http://localhost:1313/posts/cad/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>https://robinwang.github.io/posts/cad/</guid>
+      <guid>http://localhost:1313/posts/cad/</guid>
       <description>An excellent tool that is practically essential in engineering. I enjoy planning out my projects virtually as well as modeling interesting designs for printing</description>
     </item>
     <item>
       <title>Cargo (E)Bike</title>
-      <link>https://robinwang.github.io/posts/cargo-bike/</link>
+      <link>http://localhost:1313/posts/cargo-bike/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>https://robinwang.github.io/posts/cargo-bike/</guid>
+      <guid>http://localhost:1313/posts/cargo-bike/</guid>
       <description>My reliable and extremely capable transport for the last few years. With over 400 lbs of carrying capacity and excellent off road handling, it&amp;rsquo;s a go-anywhere machine.</description>
     </item>
     <item>
       <title>High Payload Fixed Wing Testbed</title>
-      <link>https://robinwang.github.io/posts/skywalker-titan/</link>
+      <link>http://localhost:1313/posts/skywalker-titan/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>https://robinwang.github.io/posts/skywalker-titan/</guid>
+      <guid>http://localhost:1313/posts/skywalker-titan/</guid>
       <description>A high capacity cargo platform capable of lifting test equipment into the air remain on station for extended periods of time.</description>
     </item>
     <item>
       <title>Long Endurance Fixed Wing Camera Platform</title>
-      <link>https://robinwang.github.io/posts/mfe-believer/</link>
+      <link>http://localhost:1313/posts/mfe-believer/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>https://robinwang.github.io/posts/mfe-believer/</guid>
+      <guid>http://localhost:1313/posts/mfe-believer/</guid>
       <description>A autonomous, long endurance, high altitude camera platform for gimballed fpv
 Overview I planned out this aircraft to soely focus on efficiency and stable flight performance. With a 5.5Kg max takeoff weight and two 6s 10aH lipo battery, this aircraft can stay in the air for over 3 hours. Swap one of the batteries for a downward facing DSLR camera and the aircraft becomes a capable mapping platform. Control is handled vial the latest H7 processor running ardupilot firmware enabling the aircraft to navigate autonomously, accept waypoint missions, and operate a three axis gimbal installed in the nose.</description>
     </item>
     <item>
       <title>Oceangoing Autonomous Catamaran</title>
-      <link>https://robinwang.github.io/posts/auto-catamaran/</link>
+      <link>http://localhost:1313/posts/auto-catamaran/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>https://robinwang.github.io/posts/auto-catamaran/</guid>
+      <guid>http://localhost:1313/posts/auto-catamaran/</guid>
       <description>A research project in my university lab with the aim to develop highly modular, 3D printable unmanned surface vehicles (USVs) for research and cargo transport</description>
     </item>
     <item>
       <title>Solar Ebike</title>
-      <link>https://robinwang.github.io/posts/solar-ebike/</link>
+      <link>http://localhost:1313/posts/solar-ebike/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>https://robinwang.github.io/posts/solar-ebike/</guid>
+      <guid>http://localhost:1313/posts/solar-ebike/</guid>
       <description>350 watts of light weight solar panels on a custom frame fixed to a trailer providing a significant boost to ebike range and allowing remote drone flying</description>
     </item>
     <item>
       <title>Subnautica Spy Pengling</title>
-      <link>https://robinwang.github.io/posts/spy-pengling/</link>
+      <link>http://localhost:1313/posts/spy-pengling/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>https://robinwang.github.io/posts/spy-pengling/</guid>
+      <guid>http://localhost:1313/posts/spy-pengling/</guid>
       <description>This is 1:1 functional replica of the spy pengling robot from the game Subnautica - Below Zero.</description>
     </item>
     <item>
       <title>Subnautica Survival Knife</title>
-      <link>https://robinwang.github.io/posts/subnautica-knife/</link>
+      <link>http://localhost:1313/posts/subnautica-knife/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>https://robinwang.github.io/posts/subnautica-knife/</guid>
+      <guid>http://localhost:1313/posts/subnautica-knife/</guid>
       <description>This is 1:1 replica of the iconic survival knife from the game subnautica.</description>
     </item>
     <item>
       <title>Tricopter VTOL</title>
-      <link>https://robinwang.github.io/posts/tricopter-vtol/</link>
+      <link>http://localhost:1313/posts/tricopter-vtol/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>https://robinwang.github.io/posts/tricopter-vtol/</guid>
+      <guid>http://localhost:1313/posts/tricopter-vtol/</guid>
       <description>A small tricopter vtol allowing for fun fixed wing FPV out of areas that lack runway space</description>
     </item>
     <item>
       <title>Welding (TIG/MIG)</title>
-      <link>https://robinwang.github.io/posts/welding/</link>
+      <link>http://localhost:1313/posts/welding/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>https://robinwang.github.io/posts/welding/</guid>
+      <guid>http://localhost:1313/posts/welding/</guid>
       <description>one of the newest skills I&amp;rsquo;ve learned, welding has drastically broadened the scope of my projects, allowing for higher strength structures and more complex metal creations</description>
     </item>
     <item>
       <title>Yonder Dynamics</title>
-      <link>https://robinwang.github.io/posts/yonder-dymanics/</link>
+      <link>http://localhost:1313/posts/yonder-dymanics/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>https://robinwang.github.io/posts/yonder-dymanics/</guid>
+      <guid>http://localhost:1313/posts/yonder-dymanics/</guid>
       <description>As a member and lead of electrical team, Yonder Dynamics was one of the most fun experiences I&amp;rsquo;ve had and taught me so much about engineering</description>
     </item>
   </channel>
