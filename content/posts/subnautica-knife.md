@@ -3,7 +3,7 @@ title: "Subnautica Survival Knife"
 date: "2024-07-05T03:24:40Z"
 draft: false
 cover:
-  image: "posts/subnauticaKnife/images/20240612_143438.jpg"
+  image: "posts/subnautica-knife/images/20240612_143438.jpg"
   alt: "knife cover"
   hidden: false
   hiddenInList: false
