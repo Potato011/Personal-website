@@ -3,7 +3,7 @@ title: "All in One Drone Control Terminal (Cyberdeck)"
 date: "2024-07-05T03:24:40Z"
 draft: false
 cover:
-  image: "posts/cyberDeck/20231014_222525.jpg"
+  image: "posts/cyber-deck/20231014_222525.jpg"
   alt: "cyberdeck cover"
   hidden: false
   hiddenInList: false

@@ -3,7 +3,7 @@ title: "TIG/MIG Welding"
 date: "2024-07-05T03:24:40Z"
 draft: false
 cover:
-  image: "posts/Welding/20231009_121810.jpg"
+  image: "posts/welding/20231009_121810.jpg"
   alt: "weld cover"
   hidden: false
   hiddenInList: false
