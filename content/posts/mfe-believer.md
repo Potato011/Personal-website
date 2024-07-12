@@ -76,7 +76,7 @@ unsuccessful takeoffs with this having the biggest consequence. Post crash analy
 {{< figure src="20240507_125654.jpg" title="sanding excess glue" >}}
 {{< figure src="20240525_165231.jpg" title="fixed(sort of)" >}}
 
-# First Takeoof
+# First Takeoff
 
 At this point, I was at an all point low when I went to the field and after the preflight checks, I wasn't expecting too much. But then ...
 
