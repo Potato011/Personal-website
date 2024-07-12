@@ -13,6 +13,8 @@ cover:
 
 A 1:12 scale rc buggy fitted with GPS/compass and proximity sensing hardware allowing for autonomous waypoint navigation. This project was constructed over covid lockdown and was my first complex robotics project. The objective of this project was to learn about microcontrollers and the design procedure constructing a robot. Its construction involved arduinos, 3D printing, and GPS tech. Because it was my first non plug-n-play project, I lacked many basic skills including soldering, hence the very strange design choices.
 
+{{<youtube UtupRltl5_M>}}
+
 # BOM
 
 | Chassis | [WLToys 12428 1:12 RC Crawler](https://www.aliexpress.us/item/2251832722592199.html?spm=a2g0o.productlist.main.3.5d872a46BFu8F0&algo_pvid=868578e7-ddcb-4287-921a-4e58fde3c87a&algo_exp_id=868578e7-ddcb-4287-921a-4e58fde3c87a-1&pdp_npi=4%40dis%21USD%2184.96%2174.82%21%21%2184.96%2174.82%21%402101e9a217207775048034112e7592%2112000036183668810%21sea%21US%212304647260%21&curPageLogUid=UlzDNm7mIvzu&utparam-url=scene%3Asearch%7Cquery_from%3A) | $75.96 |
@@ -53,6 +55,11 @@ so a redesign was made moving all self driving equipment to a 3D printed backpac
 The car has a simple wiring structure but it translates into a lot of wires. The main electricals systems can be split into power management, data processing, navigation, and drivetrain. Power management includes batteries and voltage sensors. data processing involves the arduino mega, arduino nano, buttons, potentiometers, oled, lcds, and data logging. Navigation includes sensors that help steer the car such as the GPS, IMU, and ultrasonic sensors. The drivetrain includes all components that move
 and steer the car such as the motor, esc, steering servo, and RC transmitter system. To ensure that the operator always has control over the vehicle, the drivetrain can accept steering inputs from either the arduino, or RC receiver via a multiplexer that takes a PWM select signal from the RC receiver. The data processing unit is the most complex part of the car as it handles all the navigation and user interface. The arduino mega with its larger memory handles all sensor inputs and computations to get the angle the servo should turn to. The mega also talks with the nano which handles asynchronous tasks such as updating the screens and sensing voltage. When operating in waypoint mode, the arduino mega takes a GPS waypoint in the form of longitude and latitude coordinates from an onboard sd card. Once it arrives, a white light is triggered and the LCD is updated. When the mission ends, the car commands full stop and flashes the light.
 
+
+{{< figure src="20211214_125317.jpg" title="exploded wiring view" >}}
+{{< figure src="20211217_023227.jpg" title="solderless wiring (not recommended)" >}}
+{{< figure src="20211223_231338.jpg" title="backpack top down view" >}}
+
 # Code
 
 The logic of the code is very similar to a line following robot only this time, the robot draws the line using gps coordinates. The process starts with the car getting its next waypoint. It then compares this waypoint to its current coordinates and use trigonometry to calculate the bearing relative to north (0-364 degrees). Finally, using the IMU, the car determines its own heading and by taking the difference between the heading and bearing, the car knows how far to turn the
@@ -62,6 +69,12 @@ steering servo. The distance to the waypoint is calculated using the haversine f
 
 The first series of test were conducted in my garage to see if I could get the servo to turn correctly. Afterwards, I tested in the park fields. The final test was over 2 miles through a hiking trai. During this test, I drove the car manually through, logging GPS coordinates so that on the next pass, the car could retrace my path. The testing gave good results on the open field and while it sort of worked on the trail, the limitation of the GPS module's accuracy prevented it from completing
 the trickier sections. 
+
+{{<youtube b3gWne98YPU>}}
+{{<youtube 5-EC5Vh6f8I>}}
+{{<youtube clXEDXiiAkk>}}
+{{<youtube Gm9umyj9HV4>}}
+
 
 # Conclusion
 
