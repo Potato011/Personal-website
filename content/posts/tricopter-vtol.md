@@ -3,7 +3,7 @@ title: "Tricopter VTOL"
 date: "2024-07-05T03:24:40Z"
 draft: false
 cover:
-  image: "posts/tricopterVTOL/20230112_204454.jpg"
+  image: "posts/tricopter-vtol/20230112_204454.jpg"
   alt: "triVTOL cover"
   hidden: false
   hiddenInList: false

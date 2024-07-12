@@ -3,7 +3,7 @@ title: "3D Printing"
 date: "2024-07-05T03:24:40Z"
 draft: false
 cover:
-  image: "posts/3DPrinting/image29.gif"
+  image: "posts/3d-printing/image29.gif"
   alt: "3dprint cover"
   hidden: false
   hiddenInList: false

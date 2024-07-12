@@ -3,7 +3,7 @@ title: "Subnautica Spy Pengling"
 date: "2024-07-05T03:24:40Z"
 draft: false
 cover:
-  image: "posts/spyPengling/20220115_222256.jpg"
+  image: "posts/spy-pengling/20220115_222256.jpg"
   alt: "pengling cover"
   hidden: false
   hiddenInList: false

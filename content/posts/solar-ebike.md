@@ -3,7 +3,7 @@ title: "Solar Ebike"
 date: "2024-07-05T03:24:40Z"
 draft: false
 cover:
-  image: "posts/solarEbike/20230924_101226.jpg"
+  image: "posts/solar-ebike/20230924_101226.jpg"
   alt: "solarbike cover"
   hidden: false
   hiddenInList: false

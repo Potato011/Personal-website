@@ -3,7 +3,7 @@ title: "Bikepacking Adventures"
 date: "2024-07-05T03:24:40Z"
 draft: false
 cover:
-  image: "posts/bikePacking/20220810_160724.jpg"
+  image: "posts/bike-packing/20220810_160724.jpg"
   alt: "bikepack cover"
   hidden: false
   hiddenInList: false
