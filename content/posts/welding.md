@@ -1,5 +1,5 @@
 ---
-title: "Welding (TIG/MIG)"
+title: "TIG/MIG Welding"
 date: "2024-07-05T03:24:40Z"
 draft: false
 cover:
@@ -11,5 +11,4 @@ cover:
   relative: true
 ---
 
-one of the newest skills I've learned, welding has drastically broadened the scope of my projects, allowing for higher strength structures and more complex metal creations
-
+A high capacity cargo platform capable of lifting test equipment into the air remain on station for extended periods of time.
