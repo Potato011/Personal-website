@@ -3,7 +3,7 @@ title: "Long Endurance Fixed Wing Camera Platform"
 date: "2024-07-05T03:24:40Z"
 draft: false
 cover:
-  image: "posts/mfe-believer/Test4.png"
+  image: "posts/mfe-believer/20240523_175322.jpg"
   alt: "believer cover"
   hidden: false
   hiddenInList: false

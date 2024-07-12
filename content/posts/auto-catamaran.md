@@ -3,7 +3,7 @@ title: "Oceangoing Autonomous Catamaran"
 date: "2024-07-05T03:24:40Z"
 draft: false
 cover:
-  image: "posts/autoCatamaran/large-waterborne-modular-utility-platform-catamaran-usv-v0-2437ri93nz7d1.png"
+  image: "posts/auto-catamaran/Screenshot 2024-06-21 135247.png"
   alt: "catamaran cover"
   hidden: false
   hiddenInList: false
