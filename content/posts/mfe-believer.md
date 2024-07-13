@@ -14,7 +14,7 @@ cover:
 A autonomous, long endurance, high altitude camera platform for gimballed fpv
 
 # Overview
-I planned out this aircraft to soely focus on efficiency and stable flight performance. With a 5.5Kg max takeoff weight and two 6s 10aH lipo battery, this aircraft can stay in the air for over 3 hours. Swap one of the batteries for a downward facing DSLR camera and the aircraft becomes a capable mapping platform. Control is handled vial the latest H7 processor running ardupilot firmware enabling the aircraft to navigate autonomously, accept waypoint missions, and operate a three axis
+I planned out this aircraft to solely focus on efficiency and stable flight performance. With a 5.5Kg max takeoff weight and two 6s 10aH lipo batteries, this aircraft can stay in the air for over 3 hours. Swap one of the batteries for a downward facing DSLR camera and the aircraft becomes a capable mapping platform. Control is handled via the latest H7 processor running arduplane firmware enabling the aircraft to navigate autonomously, accept waypoint missions, and operate a three axis
 gimbal installed in the nose.
 
 # BOM

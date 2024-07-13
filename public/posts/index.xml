@@ -64,7 +64,8 @@ Overview I initially conceieved this idea as a compromise between my like for bi
       <link>http://localhost:1313/posts/skywalker-titan/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
       <guid>http://localhost:1313/posts/skywalker-titan/</guid>
-      <description>A high capacity cargo platform capable of lifting test equipment into the air remain on station for extended periods of time.</description>
+      <description>A high capacity cargo platform capable of lifting test equipment into the air remain on station for extended periods of time.
+Overview The purpose of this airframe is to test experimental avionics and payloads. The airframe has high internal volume to fit bulky cargo as well as hardpoints on both wings for external loads. While the original intention was for this plane to fly, I&amp;rsquo;ve deemed the risk too high and as such, this airframe is to remain on the ground for testing.</description>
     </item>
     <item>
       <title>Long Endurance Fixed Wing Camera Platform</title>
@@ -72,7 +73,7 @@ Overview I initially conceieved this idea as a compromise between my like for bi
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
       <guid>http://localhost:1313/posts/mfe-believer/</guid>
       <description>A autonomous, long endurance, high altitude camera platform for gimballed fpv
-Overview I planned out this aircraft to soely focus on efficiency and stable flight performance. With a 5.5Kg max takeoff weight and two 6s 10aH lipo battery, this aircraft can stay in the air for over 3 hours. Swap one of the batteries for a downward facing DSLR camera and the aircraft becomes a capable mapping platform. Control is handled vial the latest H7 processor running ardupilot firmware enabling the aircraft to navigate autonomously, accept waypoint missions, and operate a three axis gimbal installed in the nose.</description>
+Overview I planned out this aircraft to solely focus on efficiency and stable flight performance. With a 5.5Kg max takeoff weight and two 6s 10aH lipo batteries, this aircraft can stay in the air for over 3 hours. Swap one of the batteries for a downward facing DSLR camera and the aircraft becomes a capable mapping platform. Control is handled via the latest H7 processor running arduplane firmware enabling the aircraft to navigate autonomously, accept waypoint missions, and operate a three axis gimbal installed in the nose.</description>
     </item>
     <item>
       <title>Oceangoing Autonomous Catamaran</title>
