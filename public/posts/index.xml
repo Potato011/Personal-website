@@ -33,7 +33,8 @@ My First 3D Printer My first 3D printer was a creality CR-10S purchased around 2
       <link>http://localhost:1313/posts/cyber-deck/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
       <guid>http://localhost:1313/posts/cyber-deck/</guid>
-      <description>A computer, FPV video system, SDR radio, RC transmitter, and power system enclosed in a weatherprood case</description>
+      <description>A computer, FPV video system, SDR radio, RC transmitter, and power system enclosed in a weatherprood case
+Overview The objective of this project was to create an all in one solution for controlling drones in the field. The main systems are a laptop, FPV monitor, secondary monitor, SDR radio, RC transitter, and power system. The secondary objective was to improve thin metal welding and battery construction. After many prototypes, all systems are working properly.</description>
     </item>
     <item>
       <title>Bikepacking Adventures</title>
@@ -47,14 +48,16 @@ My First 3D Printer My first 3D printer was a creality CR-10S purchased around 2
       <link>http://localhost:1313/posts/cad-files/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
       <guid>http://localhost:1313/posts/cad-files/</guid>
-      <description>A small tricopter vtol allowing for fun fixed wing FPV out of areas that lack runway space</description>
+      <description>As one of the first modeling tools I learned, CAD is an integral step in my design process.
+Overview Over the years, I&amp;rsquo;ve worked with primarily Fusion360 and a bit of solidworks. These pieces of software are essential to modeling parts for 3D printing, laser cutting, CNCing, or just planning the completed layout. There&amp;rsquo;s not too much to talk about so I&amp;rsquo;ll just show a few of the models I&amp;rsquo;ve made.</description>
     </item>
     <item>
       <title>Cargo (E)Bike</title>
       <link>http://localhost:1313/posts/cargo-bike/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
       <guid>http://localhost:1313/posts/cargo-bike/</guid>
-      <description>My reliable and extremely capable transport for the last few years. With over 400 lbs of carrying capacity and excellent off road handling, it&amp;rsquo;s a go-anywhere machine.</description>
+      <description>My reliable and extremely capable transport for the last few years. With over 400 lbs of carrying capacity and excellent off road handling, it&amp;rsquo;s a go-anywhere machine.
+Overview I initially conceieved this idea as a compromise between my like for biking and my need to transport more than average amounts of equipment. The cargo bike is a perfect vehicle as it&amp;rsquo;s cheaper to operate than a car and allows me to bring my cargo directly into buildings instead of walking the last stretch on foot.</description>
     </item>
     <item>
       <title>High Payload Fixed Wing Testbed</title>
@@ -76,7 +79,8 @@ Overview I planned out this aircraft to soely focus on efficiency and stable fli
       <link>http://localhost:1313/posts/auto-catamaran/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
       <guid>http://localhost:1313/posts/auto-catamaran/</guid>
-      <description>A research project in my university lab with the aim to develop highly modular, 3D printable unmanned surface vehicles (USVs) for research and cargo transport</description>
+      <description>A research project in my university lab with the aim to develop highly modular, 3D printable unmanned surface vehicles (USVs) for research and cargo transport
+Overview I originally modeled this vessel two years before its construction because I wanted to make an oceangoing RC boat that I could use to lower a camera under water to watch marine life. The project stayed as a model on my computer until the present day when I enrolled in a robotics class in uni.</description>
     </item>
     <item>
       <title>Solar Ebike</title>

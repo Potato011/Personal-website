@@ -112,6 +112,8 @@ The plane conducted one successful flight near the competition site. Unfortunate
 
 After the competitions, the motors were replaced and a custom propeller spinner that covers the motor intakes was installed. Motor cooling is now handled by an internal fan that intakes air from the back through filters. Also, gaskets have been added to all hatches/openings to prevent dust or water from entering. These modifications should greatly increase survivability through harsh conditions on the ground and in the air.
 
+{{<youtube WSXLTBxPWrU>}}
+
 # Conclusion
 
 This plane was a big step forward in learning the ins and outs of ardupilot. All my previous drones were only manually controlled so this was the first project involving full end to end autopiloting. It shows how many things need to be considered to create a functional and reliable end product. While it wasn't able to complete its task at the URC, I have many plans for it in the future. 
