@@ -33,6 +33,6 @@ Over the years, I've worked with primarily Fusion360 and a bit of solidworks. Th
 {{< figure src="Screenshot 2024-07-12 201401.png" title="delta arm joint" >}}
 {{< figure src="Screenshot 2024-07-12 200417.png" title="smart pillow (uni project)" >}}
 
-#Conclusion
+# Conclusion
 
 Great tools. It's great for planning projects and getting a sneak peak at what the project will look like before its made.
