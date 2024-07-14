@@ -78,4 +78,18 @@ There's not much test footage because most are firmware related or amount to a f
 
 {{<youtube dq9G4iCxFeQ>}}
 
+# Planned Upgrades
+
+I have many ideas for things to test on this plane. Here's a list off things I've thought about implementing. Do note that some of these ideas are of questionable legality with the FAA and I'll need to figure out how work with them if I want to try these ideas.
+
+1. Kevlar and fiberglass skin over the entire airframe
+2. Retractable, underslung zoom camera turret
+3. Air dropped radio repeaters
+4. Rocket assisted takeoff
+5. Modular cargo module with underside doors
+6. Air launched model rocket (very questionable)
+7. lidar altitude module
+
 # Conclusion
+
+I do hope to get this plane into the air. All its systems are theoretically flight worthy but a lot more work needs to be done to clean it up and make it safe to fly. Either way, the titan serves an important role in getting drones into the air and expanding my familiarity with ardupilot.

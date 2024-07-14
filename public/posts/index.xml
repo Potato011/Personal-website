@@ -95,7 +95,9 @@ Overview I originally modeled this vessel two years before its construction beca
       <link>http://localhost:1313/posts/spy-pengling/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
       <guid>http://localhost:1313/posts/spy-pengling/</guid>
-      <description>This is 1:1 functional replica of the spy pengling robot from the game Subnautica - Below Zero.</description>
+      <description>This is 1:1 functional replica of the spy pengling robot from the game Subnautica - Below Zero.
+Overview This was my first large scale CAD assembly design. I wanted to make it as accurate as possible but also functional so I could drive it around like an RC car. Looking back, it shows hows crude my manufacturing techniques were but gave invaluable insight into how to better design robots.
+CAD Model Drivetrain track pods each housing two brushed motorsThe CAD model can be divided into three primary sections which are the drivetrain, body, and head.</description>
     </item>
     <item>
       <title>Subnautica Survival Knife</title>
