@@ -81,13 +81,13 @@ One of the most iconic parts of the blade is its glowing elements, specifically 
 
 ![Resin 1](20240411_220542.jpg)
 ![Resin 2](20240410_204540.jpg)
-![Resin 3](20240410_203715.jpg)
+![Resin 3](20240612_143448.jpg)
 
 # Packaging
 
 I wanted to give the blades premium feel and thus, picked black cardboard boxes. To cushion the blade durinn transport, the boxe's interior held three layers of foam, two rectangular layers the same size as the box floor and one laser cut layer with the outline of the knife. Ideally, this will protect the knife as well as serve as a stylish storage box.
 
-![Packaging](20240612_143541.jpg)
+![Packaging](20240612_151306.jpg)
 
 # Conclusion
 This project is probably the most unrelated to my field of expertiese but was a very fun experience that gave me insight into the logistics of manufacturing and managing various tasks to ensure the product is finished on time. As of now, I've made barely enough to cover development cost so while the profits are not as high as I hoped, it's still encouraging.
