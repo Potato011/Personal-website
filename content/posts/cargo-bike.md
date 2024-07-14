@@ -1,6 +1,6 @@
 ---
 title: "Cargo (E)Bike"
-date: "2024-07-05T03:24:40Z"
+date: "2022-06-07T03:24:40Z"
 draft: false
 cover:
   image: "posts/cargo-bike/20230704_132506.jpg"

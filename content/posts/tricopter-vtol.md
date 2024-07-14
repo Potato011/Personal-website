@@ -1,6 +1,6 @@
 ---
 title: "Tricopter VTOL"
-date: "2024-07-05T03:24:40Z"
+date: "2022-10-07T03:24:40Z"
 draft: false
 cover:
   image: "posts/tricopter-vtol/20230112_204454.jpg"

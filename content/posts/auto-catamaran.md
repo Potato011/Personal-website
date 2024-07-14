@@ -1,6 +1,6 @@
 ---
 title: "Oceangoing Autonomous Catamaran"
-date: "2024-07-05T03:24:40Z"
+date: "2024-04-10T03:24:40Z"
 draft: false
 cover:
   image: "posts/auto-catamaran/Screenshot 2024-06-21 135247.png"

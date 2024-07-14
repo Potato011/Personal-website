@@ -1,6 +1,6 @@
 ---
 title: "1:12 Scale GPS/Compass Guided RC Car"
-date: "2024-07-05T03:24:40Z"
+date: "2019-12-08T03:24:40Z"
 draft: false
 cover:
   image: "posts/auto-car/20211223_231203.jpg"

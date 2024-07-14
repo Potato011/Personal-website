@@ -84,7 +84,9 @@ params:
     - name: email
       url: "mailto:robinwang011@gmail.com"
     - name: youtube
-      url: "https://youtube.com"
+      url: "https://www.youtube.com/channel/UCW3Y3gMGjWmPus-S5TCMqqA"
+    - name: reddit
+      url: "https://www.reddit.com/user/Potato0111/"
 
   analytics:
     google:

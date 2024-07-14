@@ -1,6 +1,6 @@
 ---
 title: "Solar Ebike"
-date: "2024-07-05T03:24:40Z"
+date: "2023-06-27T03:24:40Z"
 draft: false
 cover:
   image: "posts/solar-ebike/20230924_101226.jpg"

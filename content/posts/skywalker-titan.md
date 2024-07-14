@@ -1,6 +1,6 @@
 ---
 title: "High Payload Fixed Wing Testbed"
-date: "2024-07-05T03:24:40Z"
+date: "2022-10-28T03:24:40Z"
 draft: false
 cover:
   image: "posts/skywalker-titan/20230524_111557.jpg"

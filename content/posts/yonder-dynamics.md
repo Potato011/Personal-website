@@ -1,6 +1,6 @@
 ---
 title: "Yonder Dynamics"
-date: "2024-07-05T03:24:40Z"
+date: "2022-02-21T03:24:40Z"
 draft: false
 cover:
   image: "posts/yonder-dynamics/IMG_1717250892580.jpg"
