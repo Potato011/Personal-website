@@ -13,3 +13,16 @@ cover:
 
 A small tricopter vtol allowing for fun fixed wing FPV out of areas that lack runway space
 
+# Overview
+
+# BOM
+
+# Airframe
+
+# Nacelle Modifications
+
+# Electronics
+
+# Testing
+
+# Conclusion
