@@ -12,4 +12,4 @@ cover:
 ---
 
 Sequencing Assignment:
-{{youtube nBqKSIASPtU}}
+{{<youtube nBqKSIASPtUi>}}
