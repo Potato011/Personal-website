@@ -11,4 +11,5 @@ cover:
   relative: true
 ---
 
-
+Sequencing Assignment:
+{{youtube nBqKSIASPtU}}
