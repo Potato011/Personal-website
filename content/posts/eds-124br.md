@@ -13,3 +13,5 @@ cover:
 
 Sequencing Assignment:
 {{<youtube nBqKSlASPtU>}}
+Repeats Assignment:
+{{<youtube epw3exJAkAA>}}
