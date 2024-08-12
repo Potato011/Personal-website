@@ -11,7 +11,15 @@ cover:
   relative: true
 ---
 
+# Week 1
+
 Sequencing Assignment:
 {{<youtube nBqKSlASPtU>}}
 Repeats Assignment:
-{{<youtube epw3exJAkAA>}}
+{{<youtube FZw-uZsHJqw>}}
+
+# Week 2
+# Week 3
+# Week 4
+# Week 5
+
