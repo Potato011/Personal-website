@@ -17,7 +17,8 @@ Sequencing Assignment:
 {{<youtube nBqKSlASPtU>}}
 Repeats Assignment:
 {{<youtube FZw-uZsHJqw>}}
-
+Scratch Animals
+{{<youtube 73ev48ikGEY>}}
 # Week 2
 # Week 3
 # Week 4
