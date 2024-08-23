@@ -28,9 +28,9 @@ Variables:
 {{<youtube YFo29tUkrqA>}}
 # Week 3
 Conditional loop:
-{{<youtube https://youtu.be/goSgFk2lK94>}}
+{{<youtube goSgFk2lK94>}}
 If Else:
-{{<youtube https://youtu.be/KgLW84neLfc>}}
+{{<youtube KgLW84neLfc>}}
 # Week 4
 # Week 5
 
