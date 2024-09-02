@@ -32,5 +32,8 @@ Conditional loop:
 If Else:
 {{<youtube KgLW84neLfc>}}
 # Week 4
+Compound Conditionals:
+{{<youtube 9Z8QBkYNJXw>}}
+{{<youtube OT3lN86LfSg>}}
 # Week 5
 
