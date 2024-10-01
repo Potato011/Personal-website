@@ -1,7 +1,7 @@
 ---
 title: "EDS-124BR"
 date: "2024-08-11T03:24:40Z"
-draft: false
+draft: true
 cover:
   image: "posts/eds-124br/maxresdefault.jpg"
   alt: "eds124cover"
