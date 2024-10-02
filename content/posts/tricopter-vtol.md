@@ -27,7 +27,6 @@ This project was my introduction into ardupilots and autonomous flight. Prior to
 | Receiver | [Radiomaster RP3 ELRS Receiver](https://www.amazon.com/gp/product/B0BGBKG635/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) | $22.99 |
 | Transmitter | [Radiomaster Tx16S MKII MAX - ELRS](https://www.radiomasterrc.com/products/tx16s-mark-ii-max-radio-controller?variant=42850745188583) | $249.99 |
 | VTX | [AKK X02](https://www.akktek.com/akk-x2-ultimate-us-version.html) | $ 24.99 |
-| VTX Antenna | [TBS RP-SMA Triumph] |
 # Airframe
 
 # Nacelle Modifications
