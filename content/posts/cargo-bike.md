@@ -90,11 +90,11 @@ Probably the most useful project I've ever made. this bike has carried me over 3
 
 # Strange Cargo
 
-{{< figure src="20231213_124341.jpg" title="two tvs from my uni surplus store">}}
-{{< figure src="20240223_125222.jpg" title="a giant piece of wood to build my new bed (it wasn't windy that day)">}}
-{{< figure src="20230201_103921.jpg" title="large uav airframe">}}
-{{< figure src="20230226_000213.jpg" title="transporting a mountain bike">}}
-{{< figure src="20230706_143831.jpg" title="costco run(full cart)">}}
+{{< figure src="20231213_124341.jpg" title="two tvs from my uni surplus store" >}}
+{{< figure src="20240223_125222.jpg" title="a giant piece of wood to build my new bed (it wasn't windy that day)" >}}
+{{< figure src="20230201_103921.jpg" title="large uav airframe" >}}
+{{< figure src="20230226_000213.jpg" title="transporting a mountain bike" >}}
+{{< figure src="20230706_143831.jpg" title="costco run(full cart)" >}}
 
 
 
