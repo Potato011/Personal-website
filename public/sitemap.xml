@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://robinwang.github.io/posts/</loc>
-    <lastmod>2024-08-11T03:24:40+00:00</lastmod>
+    <lastmod>2024-09-07T12:30:40+00:00</lastmod>
+  </url><url>
+    <loc>https://robinwang.github.io/posts/inventory-system/</loc>
+    <lastmod>2024-09-07T12:30:40+00:00</lastmod>
   </url><url>
     <loc>https://robinwang.github.io/</loc>
-    <lastmod>2024-08-11T03:24:40+00:00</lastmod>
+    <lastmod>2024-09-07T12:30:40+00:00</lastmod>
   </url><url>
     <loc>https://robinwang.github.io/posts/3d-printing/</loc>
     <lastmod>2024-07-05T03:24:40+00:00</lastmod>
@@ -57,6 +60,8 @@
     <lastmod>2019-06-07T03:24:40+00:00</lastmod>
   </url><url>
     <loc>https://robinwang.github.io/about/</loc>
+  </url><url>
+    <loc>https://robinwang.github.io/posts/survey-usv/</loc>
   </url><url>
     <loc>https://robinwang.github.io/categories/</loc>
   </url><url>

@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- 0.128.1</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jul 2024 03:24:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Sep 2024 12:30:40 +0000</lastBuildDate>
     <atom:link href="https://robinwang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PotatoDB - Barcode Based Room Inventory System</title>
+      <link>https://robinwang.github.io/posts/inventory-system/</link>
+      <pubDate>Sat, 07 Sep 2024 12:30:40 +0000</pubDate>
+      <guid>https://robinwang.github.io/posts/inventory-system/</guid>
+      <description>An intuitive, barcode based sqlite inventory system
+Overview I own a lot of stuff. This includes parts for projects, tools, clothing, and souvenirs from events. In order to save space, I own many multilevel shelves to store containers. While I&amp;rsquo;ve been able to standardize my storage solution, there is no easy way to keep track of everything which causes issues like double buying and general friction when trying to locate an item.</description>
+    </item>
     <item>
       <title>3D Printing</title>
       <link>https://robinwang.github.io/posts/3d-printing/</link>
@@ -142,6 +150,13 @@ CAD Model Drivetrain track pods each housing two brushed motorsThe CAD model ca
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://robinwang.github.io/about/</guid>
       <description>Some info about myself. My name is Robin Wang and I am currently a 3rd year computer engineering major at University of California, San Diego. Aside from the regular university classes, I am an avid robotics enthusiast and have built several projects related to the topic.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://robinwang.github.io/posts/survey-usv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://robinwang.github.io/posts/survey-usv/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
