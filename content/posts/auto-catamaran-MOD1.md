@@ -3,7 +3,7 @@ title: "Autonomous Catamaran MOD 1"
 date: "2024-08-16T03:24:40Z"
 draft: false
 cover:
-  image: "posts/auto-catamaran-MOD1/shade3.png"
+  image: "posts/auto-catamaran-MOD1/shade1.png"
   alt: "cat cover"
   hidden: false
   hiddenInList: false
