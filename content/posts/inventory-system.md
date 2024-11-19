@@ -32,6 +32,10 @@ items and boxes, it displays the information associated with the object as well 
 {{< figure src="details.png" title="Edit page">}}
 {{< figure src="search.png" title="Search function">}}
 
+# Thoughts
+
+My main consideration was to make it as easy as possible to add items. I wanted minimal typing so most of the parent assignment must be handled by the scanner. During development, I thought about using existing barcodes on products instead of generating my own. I elected against this as I own duplicates of some items such as lipo batteries and need to be able to track aspects unique to each item such as charge/discharge cycles.
+
 # Future work
 
 This is an ongoing project. The entire codebase should probably be overhauled and many new features are in the works such as selecting multiple items, adding new parameters to the database, pushing onto server, etc. Great project and will be making updates.
