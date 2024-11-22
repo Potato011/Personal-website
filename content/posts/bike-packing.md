@@ -39,7 +39,6 @@ longest trip so far - 3 days from san diego to tecate to alpine.
 ![mexico5](mexico5.jpg)
 ![mexico6](mexico6.jpg)
 ![mexico7](mexico7.jpg)
-![mexico8](mexico8.jpg)
 ![mexico9](mexico9.jpg)
 
 # Julian trip
