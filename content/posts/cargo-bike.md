@@ -75,15 +75,28 @@ Because of the hazardous road conditions and wanting to record fun videos, I ins
 ![front dash](20240209_134249.jpg)
 ![screen](20240209_134328.jpg)
 
-# Frame Bags (in progress)
+# Frame Bags
 
 ![bag stencil](20240705_184610.jpg)
 
-I'm in the early stages of planning custom frame bags to store additional gear and weatherproof certain electronic components. I first made rough stencils of the bag shapes using cardboard. After I finalized the measurements, I'll cut the material and sew it together. Finally, I'll mount the bags and rewire the electronics.
+In order to waterproof the components, I fabricated custom frame boxes out of ABS to store the power distribution components. I first made rough stencils of the box shapes using cardboard. After I finalized the measurements, I 3D printed a few prototypes before settling on a final shape. All wires entering and leaving the box pass through cable glands or waterproof connectors. All other components are sealed with a gasket.
 
 ![stencil 2](20240705_183924.jpg)
 ![stencil 3](20240705_185237.jpg)
 ![stencil 4](20240705_183931.jpg)
+{{< figure src="wiring1.png" title="the initial wiring diagram. It's a mess but the first step of all my planning. Future drawings get a bit better">}}
+![construction 1](20250123_220521.jpg)
+![construction 2](20250123_220527.jpg)
+![complete build](20250130_124047.jpg)
+
+# Next Step
+There is still a lot of work to do. See below.
+
+# Regen Hub Motor
+In progress. The hub motor has been mounted but needs to be tuned
+
+# Upgraded Kickstand
+In progress
 
 # Conclusion
 Probably the most useful project I've ever made. this bike has carried me over 3k miles over the last 3 years. I use it almost every day and everything has worked without a problem. Looking forward to what other features I can add to this.

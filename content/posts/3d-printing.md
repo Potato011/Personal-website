@@ -62,6 +62,7 @@ frustrating process as the all metal hotend and inadequate heat brake made heat 
 ![3dp 2](20231001_182432.jpg)
 ![3dp 3](20230728_185138.jpg)
 ![3dp 4](20230729_075419.jpg)
+![3dp 5](pelvis.jpg)
 
 # Conclusion
 
