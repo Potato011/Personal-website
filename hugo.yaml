@@ -86,7 +86,7 @@ params:
     - name: youtube
       url: "https://www.youtube.com/channel/UCW3Y3gMGjWmPus-S5TCMqqA"
     - name: reddit
-      url: "https://www.reddit.com/user/Potato0111/"
+      url: "https://www.reddit.com"
 
   analytics:
     google:
