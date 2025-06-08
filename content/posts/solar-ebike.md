@@ -35,6 +35,8 @@ cover:
 - [Solar Panels](#solar-panels)
   - [Trailer](#trailer)
   - [Circuitry](#circuitry)
+- [Testing](#testing)
+- [Conclusion](#conclusion)
 
 # Overview
 This vehicle is a continuation of my E-Cargo bike project and represents a major overhaul of the bike's electrical system in addition to hardware modifications to accomodate solar panels. With the completion of this project, the bike progresses from an minimum viable product to a robust, field tested system ready for long offgrid excursions.

@@ -13,6 +13,12 @@ cover:
 
 An intuitive, barcode based sqlite inventory system
 
+# Table of Contents
+- [Overview](#overview)
+- [General Layout](#general-layout)
+- [Thoughts](#thoughts)
+- [Future Works](#future-work)
+
 # Overview
 
 ![Homepage](homepage.png)

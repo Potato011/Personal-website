@@ -36,7 +36,7 @@ BOM Bike frame Zizzo Via 20&amp;quot; folding bike $399.99 Motor kit Bafang BBS0
       <pubDate>Sat, 07 Sep 2024 12:30:40 +0000</pubDate>
       <guid>http://localhost:1313/posts/inventory-system/</guid>
       <description>An intuitive, barcode based sqlite inventory system
-Overview I own a lot of stuff. This includes parts for projects, tools, clothing, and souvenirs from events. In order to save space, I own many multilevel shelves to store containers. While I&amp;rsquo;ve been able to standardize my storage solution, there is no easy way to keep track of everything which causes issues like double buying and general friction when trying to locate an item.</description>
+Table of Contents Overview General Layout Thoughts Future Works Overview I own a lot of stuff. This includes parts for projects, tools, clothing, and souvenirs from events. In order to save space, I own many multilevel shelves to store containers. While I&amp;rsquo;ve been able to standardize my storage solution, there is no easy way to keep track of everything which causes issues like double buying and general friction when trying to locate an item.</description>
     </item>
     <item>
       <title>Autonomous Catamaran MOD 1</title>
@@ -116,7 +116,7 @@ Overview The objective of this project was to create an all in one solution for 
       <pubDate>Tue, 27 Jun 2023 03:24:40 +0000</pubDate>
       <guid>http://localhost:1313/posts/solar-ebike/</guid>
       <description>350 watts of light weight solar panels on a custom frame fixed to a trailer providing a significant boost to ebike range and allowing remote drone flying
-Table of Contents Overview Shortcomings Initial Specifications Electrical Plan Simplified Electrical Layout Detailed Electrical Layout Hardware Plan Hub Motor Modifications Suspension Fork Electrical Execution Electrical Enclosure Test Fit Electrical Enclosure CAD Models Electrical Enclosure Complted Electrical Wiring Hardware Execution Hub Motor Installation Suspension Fork Installation Finished Build Solar Panels Trailer Circuitry Overview This vehicle is a continuation of my E-Cargo bike project and represents a major overhaul of the bike&amp;rsquo;s electrical system in addition to hardware modifications to accomodate solar panels.</description>
+Table of Contents Overview Shortcomings Initial Specifications Electrical Plan Simplified Electrical Layout Detailed Electrical Layout Hardware Plan Hub Motor Modifications Suspension Fork Electrical Execution Electrical Enclosure Test Fit Electrical Enclosure CAD Models Electrical Enclosure Complted Electrical Wiring Hardware Execution Hub Motor Installation Suspension Fork Installation Finished Build Solar Panels Trailer Circuitry Testing Conclusion Overview This vehicle is a continuation of my E-Cargo bike project and represents a major overhaul of the bike&amp;rsquo;s electrical system in addition to hardware modifications to accomodate solar panels.</description>
     </item>
     <item>
       <title>High Payload Fixed Wing Testbed</title>
