@@ -33,8 +33,7 @@ Barcodes are extensively used in industry for keeping track of items. There are 
 {{< figure src="barcodes.jpg" title="items">}}
 {{< figure src="boxes.jpg" title="boxes">}}
 
-The database structure is a tree where each object has a parent that eventually ends with the root box with null parent which is my room. When adding a new item or box, the user clicks "new item/box", enters relevant info, and clicks "create". This generates a barcode that is physically printed using a label printer. The user then puts the label on the item. In order to put an item in a box, the user scans the item's barcode then scans the barcode of the box this item is supposed to go into. This updates's the item's parent to the box's id. By scanning
-items and boxes, it displays the information associated with the object as well as a list of objects contained within for boxes.
+The database structure is a tree where each object has a parent that eventually ends with the root box with null parent which is my room. When adding a new item or box, the user clicks "new item/box", enters relevant info, and clicks "create". This generates a barcode that is physically printed using a label printer. The user then puts the label on the item. In order to put an item in a box, the user scans the item's barcode then scans the barcode of the box this item is supposed to go into. This updates's the item's parent to the box's id. By scanning items and boxes, it displays the information associated with the object as well as a list of objects contained within for boxes.
 
 {{< figure src="details.png" title="Edit page">}}
 {{< figure src="search.png" title="Search function">}}
