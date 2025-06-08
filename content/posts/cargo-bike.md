@@ -13,6 +13,16 @@ cover:
 
 My reliable and extremely capable transport for the last few years. With over 400 lbs of carrying capacity and excellent off road handling, it's a go-anywhere machine.
 
+# Table of Contents
+- [Overview](#overview)
+- [Hardware Mods](#hardware-mods)
+- [Cargo Bags/Rack](#cargo-bagsrack)
+- [Electrification](#electrification)
+- [Trailer](#trailer)
+- [Dashcams](#dashcams)
+- [Conclusion](#conclusion)
+- [Strange Cargo](#strange-cargo)
+
 # Overview
 
 ![cargo 1](20220609_091256.jpg)
@@ -74,29 +84,6 @@ Because of the hazardous road conditions and wanting to record fun videos, I ins
 
 ![front dash](20240209_134249.jpg)
 ![screen](20240209_134328.jpg)
-
-# Frame Bags
-
-![bag stencil](20240705_184610.jpg)
-
-In order to waterproof the components, I fabricated custom frame boxes out of ABS to store the power distribution components. I first made rough stencils of the box shapes using cardboard. After I finalized the measurements, I 3D printed a few prototypes before settling on a final shape. All wires entering and leaving the box pass through cable glands or waterproof connectors. All other components are sealed with a gasket.
-
-![stencil 2](20240705_183924.jpg)
-![stencil 3](20240705_185237.jpg)
-![stencil 4](20240705_183931.jpg)
-{{< figure src="wiring1.png" title="the initial wiring diagram. It's a mess but the first step of all my planning. Future drawings get a bit better">}}
-![construction 1](20250123_220521.jpg)
-![construction 2](20250123_220527.jpg)
-![complete build](20250130_124047.jpg)
-
-# Next Step
-There is still a lot of work to do. See below.
-
-# Regen Hub Motor
-In progress. The hub motor has been mounted but needs to be tuned
-
-# Upgraded Kickstand
-In progress
 
 # Conclusion
 Probably the most useful project I've ever made. this bike has carried me over 3k miles over the last 3 years. I use it almost every day and everything has worked without a problem. Looking forward to what other features I can add to this.
