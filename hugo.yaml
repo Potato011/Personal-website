@@ -135,6 +135,10 @@ menu:
       name: Resume
       url: https://github.com/Potato011/resume/blob/main/Robin_Wang_Resume(1302024).pdf
       weight: 40
+    - identifier: Portfolio
+      name: Portfolio
+      url: https://github.com/Potato011/portfolio/blob/main/Portfolio.pdf
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
