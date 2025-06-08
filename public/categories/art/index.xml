@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Art on Robin Wang</title>
+    <link>http://localhost:1313/categories/art/</link>
+    <description>Recent content in Art on Robin Wang</description>
+    <image>
+      <title>Robin Wang</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.128.1</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 26 Feb 2024 03:24:40 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/art/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Subnautica Survival Knife</title>
+      <link>http://localhost:1313/posts/subnautica-knife/</link>
+      <pubDate>Mon, 26 Feb 2024 03:24:40 +0000</pubDate>
+      <guid>http://localhost:1313/posts/subnautica-knife/</guid>
+      <description>This is 1:1 replica of the iconic survival knife from the game subnautica.
+Overview This was my first attempt at selling a product as well as my first project into blade smithing and low volume mass production. Subnautica is one of my favorite games for its unique story and its great artworks. Given that I had access to a very capable machine shop, I wanted to create the most accurate replica of the iconic survival knife.</description>
+    </item>
+    <item>
+      <title>Arduino Terrarium</title>
+      <link>http://localhost:1313/posts/terrarium/</link>
+      <pubDate>Fri, 07 Jun 2019 03:24:40 +0000</pubDate>
+      <guid>http://localhost:1313/posts/terrarium/</guid>
+      <description>Overview This was a project I made in high school for my AP biology class final project. The idea is a smart terrarium constructed out ot recycled parts. The frame is an old PC tower and the old ATX power supply holder was converted into an electronics housing for powering the terrarium&amp;rsquo;s various functions. At the bottom of the frame, covered in dirt, is a water reservoir which is pumped up the concrete tower and flows back down via a waterfall.</description>
+    </item>
+  </channel>
+</rss>

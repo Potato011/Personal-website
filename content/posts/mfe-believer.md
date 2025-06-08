@@ -1,5 +1,6 @@
 ---
 title: "Long Endurance Fixed Wing Camera Platform"
+categories: ["Drone", "RC", "Plane", "Ardupilot"]
 date: "2024-04-11T03:24:40Z"
 draft: false
 cover:

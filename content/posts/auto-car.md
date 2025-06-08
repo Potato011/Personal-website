@@ -1,5 +1,6 @@
 ---
 title: "1:12 Scale GPS/Compass Guided RC Car"
+categories: ["Drone", "Car", "RC", "Arduino", "CAD"]
 date: "2019-12-08T03:24:40Z"
 draft: false
 cover:

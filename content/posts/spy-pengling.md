@@ -1,5 +1,6 @@
 ---
 title: "Subnautica Spy Pengling"
+categories: ["Video Game", "Prop", "Cosplay", "Arduino", "CAD"]
 date: "2021-01-23T03:24:40Z"
 draft: false
 cover:

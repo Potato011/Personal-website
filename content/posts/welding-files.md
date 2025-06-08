@@ -1,5 +1,6 @@
 ---
 title: "TIG/MIG Welding"
+categories: ["Metalworking"]
 date: "2024-07-05T03:24:40Z"
 draft: false
 cover:

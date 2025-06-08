@@ -1,5 +1,6 @@
 ---
 title: "Solar Ebike"
+categories: ["Bike", "Bikepacking", "Vehicle", "Electrical", "Arduino", "CAD"]
 date: "2023-06-27T03:24:40Z"
 draft: false
 cover:

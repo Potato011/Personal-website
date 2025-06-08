@@ -1,5 +1,6 @@
 ---
 title: "All in One Drone Control Terminal (Cyberdeck)"
+categories: ["Electrial", "Drone", "CAD"]
 date: "2023-10-06T03:24:40Z"
 draft: false
 cover:

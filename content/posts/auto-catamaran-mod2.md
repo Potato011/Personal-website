@@ -1,5 +1,6 @@
 ---
 title: "Autonomous Catamaran MOD 2"
+categories: ["Drone", "Boat", "RC", "CAD"]
 date: "2024-11-04T03:24:40Z"
 draft: false
 cover:

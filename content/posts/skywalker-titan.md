@@ -1,5 +1,6 @@
 ---
 title: "High Payload Fixed Wing Testbed"
+categories: ["Drone", "RC", "Plane", "Ardupilot"]
 date: "2022-10-28T03:24:40Z"
 draft: false
 cover:

@@ -1,5 +1,6 @@
 ---
 title: "Oceangoing Autonomous Catamaran"
+categories: ["Drone", "Boat", "RC", "CAD"]
 date: "2024-04-10T03:24:40Z"
 draft: false
 cover:

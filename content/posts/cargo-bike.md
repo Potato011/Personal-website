@@ -1,5 +1,6 @@
 ---
 title: "Cargo (E)Bike"
+categories: ["Bike", "Electrical", "Metalworking", "CAD"]
 date: "2022-06-07T03:24:40Z"
 draft: false
 cover:

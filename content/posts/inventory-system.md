@@ -1,5 +1,6 @@
 ---
 title: "PotatoDB - Barcode Based Room Inventory System"
+categories: ["Software", Database"]
 date: "2024-09-07T12:30:40Z"
 draft: false
 cover: 
@@ -37,6 +38,10 @@ items and boxes, it displays the information associated with the object as well 
 
 {{< figure src="details.png" title="Edit page">}}
 {{< figure src="search.png" title="Search function">}}
+
+# Demonstation
+
+{{<youtube zptMNqYbPIU>}}
 
 # Thoughts
 

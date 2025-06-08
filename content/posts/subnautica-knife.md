@@ -1,5 +1,6 @@
 ---
 title: "Subnautica Survival Knife"
+categories: ["Knife", "Metalworking", "Art", "Cosplay", "Video Game", "CAD"]
 date: "2024-02-26T03:24:40Z"
 draft: false
 cover:
@@ -90,5 +91,8 @@ I wanted to give the blades premium feel and thus, picked black cardboard boxes.
 ![Packaging](20240612_151306.jpg)
 
 # Conclusion
+
+{{<youtube BYlOVSRbSb0>}}
+
 This project is probably the most unrelated to my field of expertiese but was a very fun experience that gave me insight into the logistics of manufacturing and managing various tasks to ensure the product is finished on time. As of now, I've made barely enough to cover development cost so while the profits are not as high as I hoped, it's still encouraging.
 

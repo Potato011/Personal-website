@@ -1,5 +1,6 @@
 ---
 title: "CAD (Solidworks/Fusion)"
+categories: ["CAD"]
 date: "2024-07-05T03:24:40Z"
 draft: false
 cover:

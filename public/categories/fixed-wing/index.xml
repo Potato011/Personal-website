@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Fixed Wing on Robin Wang</title>
+    <link>http://localhost:1313/categories/fixed-wing/</link>
+    <description>Recent content in Fixed Wing on Robin Wang</description>
+    <image>
+      <title>Robin Wang</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.128.1</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 28 Oct 2022 03:24:40 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/fixed-wing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>High Payload Fixed Wing Testbed</title>
+      <link>http://localhost:1313/posts/skywalker-titan/</link>
+      <pubDate>Fri, 28 Oct 2022 03:24:40 +0000</pubDate>
+      <guid>http://localhost:1313/posts/skywalker-titan/</guid>
+      <description>A high capacity cargo platform capable of lifting test equipment into the air remain on station for extended periods of time.
+Overview The purpose of this airframe is to test experimental avionics and payloads. The airframe has high internal volume to fit bulky cargo as well as hardpoints on both wings for external loads. While the original intention was for this plane to fly, I&amp;rsquo;ve deemed the risk too high and as such, this airframe is to remain on the ground for testing.</description>
+    </item>
+  </channel>
+</rss>

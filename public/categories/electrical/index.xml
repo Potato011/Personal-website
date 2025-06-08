@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Electrical on Robin Wang</title>
+    <link>http://localhost:1313/categories/electrical/</link>
+    <description>Recent content in Electrical on Robin Wang</description>
+    <image>
+      <title>Robin Wang</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.128.1</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 27 Jun 2023 03:24:40 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/electrical/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solar Ebike</title>
+      <link>http://localhost:1313/posts/solar-ebike/</link>
+      <pubDate>Tue, 27 Jun 2023 03:24:40 +0000</pubDate>
+      <guid>http://localhost:1313/posts/solar-ebike/</guid>
+      <description>350 watts of light weight solar panels on a custom frame fixed to a trailer providing a significant boost to ebike range and allowing remote drone flying
+Table of Contents Overview Shortcomings Initial Specifications Electrical Plan Simplified Electrical Layout Detailed Electrical Layout Hardware Plan Hub Motor Modifications Suspension Fork Electrical Execution Electrical Enclosure Test Fit Electrical Enclosure CAD Models Electrical Enclosure Complted Electrical Wiring Hardware Execution Hub Motor Installation Suspension Fork Installation Finished Build Solar Panels Trailer Circuitry Testing Conclusion Overview This vehicle is a continuation of my E-Cargo bike project and represents a major overhaul of the bike&amp;rsquo;s electrical system in addition to hardware modifications to accomodate solar panels.</description>
+    </item>
+    <item>
+      <title>Cargo (E)Bike</title>
+      <link>http://localhost:1313/posts/cargo-bike/</link>
+      <pubDate>Tue, 07 Jun 2022 03:24:40 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cargo-bike/</guid>
+      <description>My reliable and extremely capable transport for the last few years. With over 400 lbs of carrying capacity and excellent off road handling, it&amp;rsquo;s a go-anywhere machine.
+Table of Contents Overview Hardware Mods Cargo Bags/Rack Electrification Trailer Dashcams Conclusion Strange Cargo Overview I initially conceieved this idea as a compromise between my like for biking and my need to transport more than average amounts of equipment. The cargo bike is a perfect vehicle as it&amp;rsquo;s cheaper to operate than a car and allows me to bring my cargo directly into buildings instead of walking the last stretch on foot.</description>
+    </item>
+    <item>
+      <title>Yonder Dynamics</title>
+      <link>http://localhost:1313/posts/yonder-dynamics/</link>
+      <pubDate>Mon, 21 Feb 2022 03:24:40 +0000</pubDate>
+      <guid>http://localhost:1313/posts/yonder-dynamics/</guid>
+      <description>As a member and lead of electrical team, Yonder Dynamics was one of the most fun experiences I&amp;rsquo;ve had and taught me so much about engineering</description>
+    </item>
+    <item>
+      <title>Arduino Terrarium</title>
+      <link>http://localhost:1313/posts/terrarium/</link>
+      <pubDate>Fri, 07 Jun 2019 03:24:40 +0000</pubDate>
+      <guid>http://localhost:1313/posts/terrarium/</guid>
+      <description>Overview This was a project I made in high school for my AP biology class final project. The idea is a smart terrarium constructed out ot recycled parts. The frame is an old PC tower and the old ATX power supply holder was converted into an electronics housing for powering the terrarium&amp;rsquo;s various functions. At the bottom of the frame, covered in dirt, is a water reservoir which is pumped up the concrete tower and flows back down via a waterfall.</description>
+    </item>
+  </channel>
+</rss>

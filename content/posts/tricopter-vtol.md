@@ -1,5 +1,6 @@
 ---
 title: "Tricopter VTOL"
+categories: ["Drone", "RC", "Plane", "Copter", "Ardupilot"]
 date: "2022-10-07T03:24:40Z"
 draft: false
 cover:

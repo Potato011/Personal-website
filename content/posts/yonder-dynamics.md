@@ -1,5 +1,6 @@
 ---
 title: "Yonder Dynamics"
+categories: ["Robotics", "Electrical", "Drone", "RC", "CAD"]
 date: "2022-02-21T03:24:40Z"
 draft: false
 cover:

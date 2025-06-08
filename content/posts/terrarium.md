@@ -1,5 +1,6 @@
 ---
 title: "Arduino Terrarium"
+categories: ["Electrical", "Biology", "Art", "Arduino"]
 date: "2019-06-07T03:24:40Z"
 draft: false
 cover:
