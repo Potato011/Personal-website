@@ -147,4 +147,4 @@ Primary goals for next iteration:
 - improved PDB with power logging functionality
 
 # Conclusion
-The craft has proved to be a highly maneuverable platform with good payload capacity. More tests will be needed but it seems promising. 
+The craft has proved to be a highly maneuverable platform with good payload capacity. This products represents the cumulation of three prototypes and countless tests. I started research approximately eight months ago and in that time, I learned quite a bit about problem solving and polishing a product for production. My hopes is to take what was learned with this model and create an even more refined product sometime down the line (maybe with hydrofoils). 
