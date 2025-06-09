@@ -37,6 +37,9 @@ cover:
   - [Trailer](#trailer)
   - [Circuitry](#circuitry)
 - [Testing](#testing)
+  - [Regen Braking Test Method](#regen-braking-test-method)
+  - [Solar Trailer Test Method](#solar-trailer-test-method)
+  - [Testing Conclusion](#testing-conclusion)
 - [Conclusion](#conclusion)
 
 # Overview
@@ -166,7 +169,29 @@ Power from the panels are fed through an Elejoy maximum power point tracking (MP
 
 # Testing
 
-Testing was conducted on several trip culminating with an offroad overnight trip at Mission Trails regional park. The bike was able to haul the trailer along with camping gear through a variety of terrain including singletrack mountain bike trails. A power meter onboard logged the amount of solar and regen energy collected. Overall, independently testing the regen motor shows an average 15% increase in range. The solar trailer decreases range by approximately 20% but is able to fully charge the battery from empty in approximately four hours.
+Testing was conducted on several trip culminating with an offroad overnight trip at Mission Trails regional park. The goal of these tests were to validate the bike's ability to increase range through regen braking and solar power. Additionally, these tests test the bike's various hardware modifications to ensure reliability under harsh conditions.
+
+## Regen Braking Test Method
+
+The bike with no cargo will ride down a predefined path featuring various terrain and elevation changes. In order to maintain consistency between tests, the rider will not be pedaling. Instead, the middrive throttle is used to keep the bike at a consistent speed. The same 52V 17.5ah li-ion battery is used between tests. Gear changes are allowed and are kept consistent between tests. These tests were conducted three times and results averaged.
+
+| Test Name | Test Description | Results |
+|----------|----------|----------|
+| Control    | The bike is ridden through the route with only conventional disk braking. |  ~25 miles on one charge. |
+| Regen   | The bike is ridden through the route with priority given to regen braking. If regen braking is not enough to come to a safe stop, disk brakes are added to the braking force.   | ~28 miles on one charge. |
+
+## Solar Trailer Test Method
+
+The bike with trailer and no cargo will ride down a predefined path featuring various terrain and elevation changes. In order to maintain consistency between tests, the rider will not be pedaling. Instead, the middrive throttle is used to keep the bike at a consistent speed. The same 52V 17.5ah li-ion battery is used between tests. Gear changes are allowed and are kept consistent between tests. Tests are conducted on summer days with no cloud forecast and ambient air temperature over 65 degrees fahrenheit. These tests were conducted three times and results averaged.
+
+| Test Name | Test Description | Results |
+|----------|----------|----------|
+| Control   | The bike is ridden through the route with only conventional disk braking. | ~25 miles on one charge.   |
+| Solar    | The bike towing the solar trailer is ridden through the route with only conventional disk braking. | ~21 miles on one charge   |
+
+## Testing Conclusion
+
+The bike was able to haul the trailer along with camping gear through a variety of terrain including singletrack mountain bike trails. Overall, independently testing the regen motor shows an average 12% increase in range. The solar trailer decreases range by approximately 16%. It is important to note that the trailer allows for the full recharging of a battery in approximately four hours thus achieving the overall goal of independent offgrid operation.
 
 {{< figure src="side_view.jpg" title="Testing in downtown San Diego" >}}
 {{< figure src="panels_deployed.jpg" title="Testing in downtown San Diego 2" >}}
