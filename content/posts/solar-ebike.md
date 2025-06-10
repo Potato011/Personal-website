@@ -41,11 +41,17 @@ cover:
   - [Solar Trailer Test Method](#solar-trailer-test-method)
   - [Testing Conclusion](#testing-conclusion)
 - [Conclusion](#conclusion)
+- [Gallery](#gallery)
 
 # Overview
 This vehicle is a continuation of my E-Cargo bike project and represents a major overhaul of the bike's electrical system in addition to hardware modifications to accomodate solar panels. With the completion of this project, the bike progresses from an minimum viable product to a robust, field tested system ready for long offgrid excursions.
 
+![Complete Feature Diagram](bike_features.png)
+
 # Shortcomings
+{{< figure src="before.jpg" title="Bike before major overhaul" >}}
+{{< figure src="beforeElectricals.jpg" title="Exposed power distribution electronics" >}}
+
 The current bike, while containing the bare minimum equipment required to transport cargo offroad, lacks many reliability features necessary for sustaining prolonged offroad travel.
 
 Major problems were identified in several areas:
@@ -135,6 +141,7 @@ To improve ride comfort, a suspension for was also added.
 ## Electrical Wiring
 
 {{< figure src="wiring.jpg" title="Wiring installation" >}}
+{{< figure src="testFit.jpg" title="Test fit of electrical enclosure" >}}
 {{< figure src="testwiring.jpg" title="Test routing of waterproof bulkheads" >}}
 
 # Hardware Execution
@@ -160,6 +167,8 @@ In order to provide enough power for the bike and camp equipment, 350W of solar 
 ## Trailer
 
 {{< figure src="trailer.jpg" title="Solar trailer" >}}
+{{< figure src="hitch.jpg" title="welded trailer hitch" >}}
+{{< figure src="fullLength.jpg" title="Full Length" >}}
 
 ## Circuitry
 
@@ -203,4 +212,36 @@ The bike was able to haul the trailer along with camping gear through a variety 
 # Conclusion
 Overall, I was able to achieve what I set out to do. The solar panels succeeded in decreasing my dependence on grid charging and has proven itself capable of handling the harsh offroad terrain. The bike itself has also proven itself to be a reliable vehicle with over 1000 miles logged after this upgrade. This was a great learning experience in designing a distributed system for transfering power and data throughout a vehicle. I have several future upgrades in mind but that's for next time.
 
+# Gallery
+
+## Wacky Cargo
+{{< figure src="bikeTitan.jpg" title="100+ mile trip on Catalina Island" >}}
+{{< figure src="bikeTV.jpg" title="100+ mile trip on Catalina Island" >}}
+{{< figure src="bikeBoat.jpg" title="100+ mile trip on Catalina Island" >}}
+
+## Bikepacking Trips
 {{< figure src="catalina.jpg" title="100+ mile trip on Catalina Island" >}}
+{{< figure src="ferry.jpg" title="bike on ferry to catalina" >}}
+{{< figure src="amtrak.jpg" title="bike on amtrak to ferry" >}}
+{{< figure src="parsons.jpg" title="Parson's landing - Northernmost camp on Catalina" >}}
+{{< figure src="catalinaMap.png" title="Trip route and elevation map" >}}
+
+{{< figure src="bikepack1.jpg" title="Ascending mountain to Cleveland National Forest" >}}
+{{< figure src="hill.jpg" title="Ascending mountain to Cleveland National Forest" >}}
+{{< figure src="cockpit.jpg" title="bike cockpit with power meter, android auto, garmin gps, and a towel for my face" >}}
+{{< figure src="route80.jpg" title="riding along historical route 80" >}}
+{{< figure src="camp1.jpg" title="arrived at campsite" >}}
+{{< figure src="camp.jpg" title="night in the wilderness" >}}
+![Stars](stars2.jpg)
+![Stars](stars3.jpg)
+![Stars](stars4.jpg)
+![Stars](stars5.jpg)
+![Stars](stars6.jpg)
+![Stars](stars7.jpg)
+
+{{< figure src="night2.jpg" title="night in the wilderness" >}}
+{{< figure src="night3.jpg" title="night in the wilderness" >}}
+
+
+
+
