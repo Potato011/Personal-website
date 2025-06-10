@@ -83,6 +83,8 @@ exposed metal portion would be eaten away thus creating the desired indent. The 
 The initial edge of the blade is ground using a blade jig and belt sander. Before grinding both sides are marked with a line that tells how far to grind each edge. The knife is a double bevel knife so the jig is angled so when both edges are ground, they meet at exactly the center of the knife's thickness. Each blade must be ground four times, one for each edge. After final checks are complete, the blades are ready to be hardened.
 
 ![Blade 6](20240306_195512.jpg)
+![Blade 6](edge2.jpg)
+![Blade 6](edge1.jpg)
 
 ## Vacuum Furnace Heat Treating
 
@@ -90,6 +92,7 @@ Initially, an in house furnace was selected but after significant oxidation appe
 
 ![Blade 6](20240412_134807.jpg)
 ![Blade 7](vacuum.jpg)
+![Blade 7](final5.jpg)
 
 ## Chemical Laser Etching
 
@@ -180,5 +183,5 @@ This is where I should say that it was a grand success but unfortunately I must 
 
 {{<youtube BYlOVSRbSb0>}}
 
-This project is probably the most unrelated to my field of expertiese but was a very fun experience that gave me insight into the logistics of manufacturing and managing various tasks to ensure the product is finished on time. As of now, I've made barely enough to cover development cost so while the profits are not as high as I hoped, it's still encouraging.
+This project is probably the most unrelated to my field of expertiese but was a very fun experience that gave me insight into the logistics of manufacturing and managing various tasks to ensure the product is finished on time. The entire project went from idea to finished sales in less than two months so the pacing was very fast. As of now, I've made barely enough to cover development cost so while the profits are not as high as I hoped, it's still encouraging.
 
