@@ -16,9 +16,10 @@ This is 1:1 replica of the iconic survival knife from the game subnautica.
 
 # Table of Contents
 - [Overview](#overview)
-- [In Game Reference](#in-game-reference)
+  - [Inspiration](#inspiration)
+  - [In Game Reference](#in-game-reference)
 - [CAD](#cad)
-- [Test Articles](#test-articles)
+- [Prototyping](#prototyping)
 - [Blade Fabrication](#blade-fabrication)
   - [Laser Cutting](#laser-cutting)
   - [Electro Etching](#electro-etching)
@@ -38,12 +39,18 @@ This is 1:1 replica of the iconic survival knife from the game subnautica.
   - [Revenue](#revenue)
   - [Profit(?)](#profit)
 - [Conclusion](#conclusion)
+
 # Overview
 
-This was my first attempt at selling a product as well as my first project into blade smithing and low volume mass production.
-Subnautica is one of my favorite games for its unique story and its great artworks. Given that I had access to a very capable machine shop, I wanted to create the most accurate replica of the iconic survival knife. To take it one step further, I want to sell many of these knives to fund the development and maybe provide some extra funding for future projects.
+This was my first project into blade smithing and low volume mass production, as well as my first attempt at selling a product.
 
-# In Game Reference
+## Inspiration
+
+Subnautica is a single player survival game where your spaceship crashed, stranding you onto an uncharted planet covered in oceans. Your goal is to survive in the harsh environment, collecting resources and fighting off dangerous native lifeforms with the end goal of escaping the planet. This game is one of my favorite games for its unique story and beautiful artworks. One of your first and most used tools is a simple survival knife. It's simple but futuristic looks has a great asthetic that fits with my preference for futuristic artwork. 
+
+Given that I had access to a very capable machine shop, I wanted to create the most accurate replica of the iconic survival knife. To take it one step further, I want to sell many of these knives to fund the development and maybe provide some extra funding for future projects.
+
+## In Game Reference
 
 ![In game 1](ingame1.png)
 ![In game 2](ingame2.png)
@@ -57,7 +64,7 @@ To speed up development and because I lacked sufficient freeform CAD skills to m
 ![CAD 4](image(1).png)
 ![CAD 3](image.png)
 
-## Test Articles
+## Prototyping
 
 ![Blade](20240304_211952.jpg)
 
@@ -71,8 +78,7 @@ Blades started out as a sheet of 0.18" or 0.12" AEB-L stainless steel. This shee
 
 ## Electro Etching
 
-The knife's blade has a very iconic triangular shaped indent on both sides. Given the depth of this indent, the only option available to me was etching. After experimentation between electro and chemical etching, electro proved more consistent. The blades are first covered in specially cut vinyl that wraps around the entire blade, exposing only the triangle to be etched, Then the entire blade is inserted into a salt water bath where over the course of roughly one hour, the
-exposed metal portion would be eaten away thus creating the desired indent. The blades are then removed, the vinyl stripped, and immediately dried to prevent rusting.
+The knife's blade has a very iconic triangular shaped indent on both sides. Given the depth of this indent, the only option available to me was etching. After experimentation between electro and chemical etching, electro proved more consistent. The blades are first covered in specially cut vinyl that wraps around the entire blade, exposing only the triangle to be etched, Then the entire blade is inserted into a salt water bath where over the course of roughly one hour, the exposed metal portion would be eaten away thus creating the desired indent. The blades are then removed, the vinyl stripped, and immediately dried to prevent rusting. This process is by far the most risky as any deviation in electrical settings or salt water solution could results in a fuzzy edge and thus not be sellable.
 
 ![Blade 3](20240321_032931.jpg)
 ![Blade 4](20240321_183947.jpg)
@@ -116,19 +122,21 @@ The handle consistes of many  3D printed parts, mostly because there are multipl
 
 ![Print](20240410_090622.jpg)
 
-On a different printer is the tpu grip. This material was a lot harder to work with and had numerous stringing issues. When completed, this part would also be joined onto a finished blade and secured with epoxy
+On a different printer is the tpu grip. This material was a lot harder to work with and had numerous stringing issues. When completed, this part would also be joined onto a finished blade and secured with epoxy. In order to erase the layer lines, each TPU component has its surface lightly burned by a blow torch. This melts the layer lines and makes the layer lines less prominent while also creating a surface texture similar to high grip rubber.
 
 ![Print 2](tpu.jpg)
 
 ## Resin Casting
 
-One of the most iconic parts of the blade is its glowing elements, specifically around its hole and button perimeter. To achieve this without ultra small electronics, the parts must be phosphorescent. To create this part, a positive mold is SLA printed. Using this mold, a silicone negative is created. Finally, resin mixed with phosporescent powder is poured into the negative and once dry, the glowing blue part is ready for installation. 
+One of the most iconic parts of the blade is its glowing elements, specifically around its hole and button perimeter. To achieve this without ultra small electronics, the parts must be phosphorescent. To create this part, a positive mold is SLA printed. Using this mold, a silicone negative is created. Finally, clear resin mixed with blue phosporescent powder is poured into the negative and once dry, the glowing blue part is ready for installation. 
 
 ![Resin 1](20240411_220542.jpg)
 ![Resin 2](20240410_204540.jpg)
 ![Resin 3](20240612_143448.jpg)
 
 # Final Assembly
+
+After the blade and handle are finished, they are joined together. This process involves sandwiching the blade into the two 3D printed halves which have their mating surfaces brushed wtih epoxy. After the epoxy cures, the entire handle is brushed with acetone to smoothen the surface. Finally, the entire blade is cleaned with isopropyl alchohol before being packaged for shipping.
 
 ![Blade 10](20240611_202410.jpg)
 ![Blade 10](final4.jpg)
@@ -138,7 +146,7 @@ One of the most iconic parts of the blade is its glowing elements, specifically 
 
 # Packaging
 
-I wanted to give the blades premium feel and thus, picked black cardboard boxes. To cushion the blade durinn transport, the boxe's interior held three layers of foam, two rectangular layers the same size as the box floor and one laser cut layer with the outline of the knife. Ideally, this will protect the knife as well as serve as a stylish storage box.
+I wanted to give the blades premium feel and thus, picked black cardboard boxes. To cushion the blade during transport, the boxe's interior contains three layers of foam. There are two rectangular layers the same size as the box floor which sandwich one laser cut layer with the outline of the knife. Ideally, this will protect the knife as well as serve as a stylish storage box.
 
 ![Packaging](20240612_151306.jpg)
 
