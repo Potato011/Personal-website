@@ -25,6 +25,8 @@ This is 1:1 replica of the iconic survival knife from the game subnautica.
   - [Electro Etching](#electro-etching)
   - [Edge Grinding](#edge-grinding)
   - [Vacuum Furanace Heat Treating](#vacuum-furnace-heat-treating)
+    - [DIY Hardening](#diy-hardening)
+    - [Professional Hardening](#professional-hardening)
   - [Chemical Laser Etching](#chemical-laser-etching)
   - [Sharpening](#sharpening)
 - [Handle Fabrication](#handle-fabrication)
@@ -96,9 +98,13 @@ The initial edge of the blade is ground using a blade jig and belt sander. Befor
 
 Initially, an in house furnace was selected but after significant oxidation appeared on the surface, a professional hardener was selected to harden the blades in their vacuum furnace. 
 
-![Blade 6](20240412_134807.jpg)
-![Blade 7](vacuum.jpg)
-![Blade 7](final5.jpg)
+### DIY Hardening
+{{< figure src="furnace.jpg" title="DIY furnace hardening in hobby level furnace" >}}
+{{< figure src="diyFurnace.jpg" title="Acceptable levels of hardness but high levels of oxidation." >}}
+
+### Professional Hardening
+{{< figure src="vacuum.jpg" title="professional vacuum furnace results" >}}
+{{< figure src="final5.jpg" title="Discoloration on left blade from hardening process" >}}
 
 ## Chemical Laser Etching
 
