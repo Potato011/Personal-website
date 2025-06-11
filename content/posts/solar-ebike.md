@@ -21,6 +21,7 @@ cover:
 - [Electrical Plan](#electrical-plan)
   - [Simplified Electrical Layout](#simplified-electrical-layout)
   - [Detailed Electrical Layout](#detailed-electrical-layout)
+  - [Fault Detection](#fault-detection)
 - [Hardware Plan](#hardware-plan)
   - [Hub Motor Modifications](#hub-motor-modifications)
   - [Suspension Fork](#suspension-fork)
@@ -95,6 +96,12 @@ The electical components can be divided into three primary nodes, forward, middl
 ![Detailed Electrical Diagram](detailed_diagram.png)
 
 The power pathway starts from the battery where it is sent into the high voltage bus box. This power is goes to the middrive motor controller, hub motor controller, and a 60v to 12v step down located in the low voltage buxs box. This stepped down power is sent to various 12v appliances such as the android auto dahsboard as well as the lighting relay PCB. Relays are controlled by an onboard arduino controlled by switches located in the cockpit. Data is transmitted throughout the bike via dedicated data lines carrying information from the cockpit to the forward, mid, and read nodes as well as vehicle status information back from these nodes.
+
+## Fault Detection
+
+In order to ensure all systems are operating as intended, the overhaul introduces fused connections, fault detection, and datalogging to the bike. This system divides the bike into several nodes each containing its own microcontroller. When a fault is detected, the microcontroller logs the issue before sending it to the central node which informs the cockpit dashboard of the fault.
+
+![Fault Detection Circuit](circuit2.png)
 
 # Hardware Plan
 
