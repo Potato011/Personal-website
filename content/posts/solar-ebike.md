@@ -132,6 +132,7 @@ To improve ride comfort, a suspension for was also added.
 {{< figure src="cad2.png" title="Low Voltage Bus Box top view" >}}
 {{< figure src="cad1.png" title="Low Voltage Bus Box bottom view" >}}
 {{< figure src="cad4.png" title="VESC Motor Controller Box" >}}
+{{< figure src="testFit.jpg" title="Test fit of electrical enclosure" >}}
 
 ## Electrical Enclosure Completed
 
@@ -141,7 +142,6 @@ To improve ride comfort, a suspension for was also added.
 ## Electrical Wiring
 
 {{< figure src="wiring.jpg" title="Wiring installation" >}}
-{{< figure src="testFit.jpg" title="Test fit of electrical enclosure" >}}
 {{< figure src="testwiring.jpg" title="Test routing of waterproof bulkheads" >}}
 
 # Hardware Execution
@@ -215,9 +215,9 @@ Overall, I was able to achieve what I set out to do. The solar panels succeeded 
 # Gallery
 
 ## Wacky Cargo
-{{< figure src="bikeTitan.jpg" title="100+ mile trip on Catalina Island" >}}
-{{< figure src="bikeTV.jpg" title="100+ mile trip on Catalina Island" >}}
-{{< figure src="bikeBoat.jpg" title="100+ mile trip on Catalina Island" >}}
+{{< figure src="bikeTitan.jpg" title="carrying the fuselage of a Skywalker Titan UAV" >}}
+{{< figure src="bikeTV.jpg" title="hauling 2 TVs back from university surplus store" >}}
+{{< figure src="bikeBoat.jpg" title="hauling 2 3D printed catamaran USV hull" >}}
 
 ## Bikepacking Trips
 {{< figure src="catalina.jpg" title="100+ mile trip on Catalina Island" >}}
