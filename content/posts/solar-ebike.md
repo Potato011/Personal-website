@@ -68,16 +68,17 @@ Major problems were identified in several areas:
 
 # Initial Specifications
 The following requirements were created to address these shortcomings:
-- Electrical
-  - modular node based electrical junction PCBs with spare ports
-  - fuses on all power ports
-  - extra ports for adaptability
-  - indicator lights + control unit with cockpit dashboard
 
 - Mechanical
   - waterproof enclosures for all electrical components with quick access panels
   - regenerative braking via hub motor
   - suspension fork
+  
+- Electrical
+  - modular node based electrical junction PCBs with spare ports
+  - fuses on all power ports
+  - extra ports for adaptability
+  - indicator lights + control unit with cockpit dashboard
 
 # Hardware Plan
 
