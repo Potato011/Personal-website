@@ -223,6 +223,8 @@ Overall, I was able to achieve what I set out to do. The solar panels succeeded 
 {{< figure src="catalina.jpg" title="100+ mile trip on Catalina Island" >}}
 {{< figure src="ferry.jpg" title="bike on ferry to catalina" >}}
 {{< figure src="amtrak.jpg" title="bike on amtrak to ferry" >}}
+{{< figure src="terrain1.jpg" title="southern mountains of Catalina" >}}
+{{< figure src="terrain2.jpg" title="steep hill climbs (1.4k ft within 3 miles)" >}}
 {{< figure src="parsons.jpg" title="Parson's landing - Northernmost camp on Catalina" >}}
 {{< figure src="catalinaMap.png" title="Trip route and elevation map" >}}
 
