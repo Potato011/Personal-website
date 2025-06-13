@@ -2,180 +2,180 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Robin Wang</title>
-    <link>http://localhost:1313/</link>
+    <link>https://robinwang.github.io/</link>
     <description>Recent content on Robin Wang</description>
     <image>
       <title>Robin Wang</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://robinwang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://robinwang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.128.1</generator>
     <language>en</language>
     <lastBuildDate>Mon, 04 Nov 2024 03:24:40 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://robinwang.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Autonomous Catamaran MOD 2</title>
-      <link>http://localhost:1313/posts/auto-catamaran-mod2/</link>
+      <link>https://robinwang.github.io/posts/auto-catamaran-mod2/</link>
       <pubDate>Mon, 04 Nov 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/auto-catamaran-mod2/</guid>
+      <guid>https://robinwang.github.io/posts/auto-catamaran-mod2/</guid>
       <description>Table of Contents Overview Design Considerations Operational Manufacturing Conceptual Design &amp;amp; Studies Hull Design Acetone Welding/Assembly Seakeeping Propulsion Navigation Electrical Layout Gallery Construction Testing Results/Analysis Improvements Conclusion Overview A production model of the ongoing catamaran USV project. This hull emphasizes portability and waterproofness, implementing many features from previous design along with several new design elements. This craft is designed to be the most reliable and versatile craft, being easily transportable, having large payload capacity, long mission endurance.</description>
     </item>
     <item>
       <title>Folding Touring Ebike</title>
-      <link>http://localhost:1313/posts/folding-ebike/</link>
+      <link>https://robinwang.github.io/posts/folding-ebike/</link>
       <pubDate>Wed, 23 Oct 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/folding-ebike/</guid>
+      <guid>https://robinwang.github.io/posts/folding-ebike/</guid>
       <description>A powerful but portable ebike for long distance touring and commuting.
 Overview This is my folding eike designed to be a powerful touring setup. The entire rig without batteries weighs in at 47 lbs which makes it air transportable in a standard check in suitcase. I&amp;rsquo;ve made various mods to make it more reliable and suited for it&amp;rsquo;s role
 BOM Bike frame Zizzo Via 20&amp;quot; folding bike $399.99 Motor kit Bafang BBS02 middrive kit $1000 Rear rack Zizzo transit rack $90.</description>
     </item>
     <item>
       <title>PotatoDB - Barcode Based Room Inventory System</title>
-      <link>http://localhost:1313/posts/inventory-system/</link>
+      <link>https://robinwang.github.io/posts/inventory-system/</link>
       <pubDate>Sat, 07 Sep 2024 12:30:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/inventory-system/</guid>
+      <guid>https://robinwang.github.io/posts/inventory-system/</guid>
       <description>An intuitive, barcode based sqlite inventory system
 Table of Contents Overview General Layout Thoughts Future Works Overview I own a lot of stuff. This includes parts for projects, tools, clothing, and souvenirs from events. In order to save space, I own many multilevel shelves to store containers. While I&amp;rsquo;ve been able to standardize my storage solution, there is no easy way to keep track of everything which causes issues like double buying and general friction when trying to locate an item.</description>
     </item>
     <item>
       <title>Autonomous Catamaran MOD 1</title>
-      <link>http://localhost:1313/posts/auto-catamaran-mod1/</link>
+      <link>https://robinwang.github.io/posts/auto-catamaran-mod1/</link>
       <pubDate>Fri, 16 Aug 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/auto-catamaran-mod1/</guid>
+      <guid>https://robinwang.github.io/posts/auto-catamaran-mod1/</guid>
       <description>A revised version of the Oceangoing Catamaran USV project.
 Overview Following the construction and testing of the first Oceangoing Catamaran USV project, it was decided that a larger platform was needed to handle th rough conditions of the ocean. A major consideration was waterproofing the entire hull and streamline it for cutting through waves.
 view 1Hull Changes One of the largest changes was the switch from a traditional bow to an axe bow.</description>
     </item>
     <item>
       <title>3D Printing</title>
-      <link>http://localhost:1313/posts/3d-printing/</link>
+      <link>https://robinwang.github.io/posts/3d-printing/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/3d-printing/</guid>
+      <guid>https://robinwang.github.io/posts/3d-printing/</guid>
       <description>I&amp;rsquo;ve experimented a lot with 3d printing technologies and have constructed several rather unique machines.
 My First 3D Printer My first 3D printer was a creality CR-10S purchased around 2020. Its purchased happened when I was getting familiar with cad and I got the printer in order to print the Subnautica Spy Pengling I modeled. In the years since, this printer has undergone numerous upgrades and is still in service today.</description>
     </item>
     <item>
       <title>Bikepacking Adventures</title>
-      <link>http://localhost:1313/posts/bike-packing/</link>
+      <link>https://robinwang.github.io/posts/bike-packing/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/bike-packing/</guid>
+      <guid>https://robinwang.github.io/posts/bike-packing/</guid>
       <description>I&amp;rsquo;m a bikepacking enthusiast and have gone on many trips exploring the surronding areas. Biking through the natural beauty is always a great experience.
 Cleveland National Forest First bikepacking trip. We aimed to get to mt laguna but didn&amp;rsquo;t make it. Good learning experience Cleveland National Forest (again) Second attempt with friend. Different destination but very successful. Tecate trip longest trip so far - 3 days from san diego to tecate to alpine.</description>
     </item>
     <item>
       <title>CAD (Solidworks/Fusion)</title>
-      <link>http://localhost:1313/posts/cad-files/</link>
+      <link>https://robinwang.github.io/posts/cad-files/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/cad-files/</guid>
+      <guid>https://robinwang.github.io/posts/cad-files/</guid>
       <description>As one of the first modeling tools I learned, CAD is an integral step in my design process.
 Overview Over the years, I&amp;rsquo;ve worked with primarily Fusion360 and a bit of solidworks. These pieces of software are essential to modeling parts for 3D printing, laser cutting, CNCing, or just planning the completed layout. There&amp;rsquo;s not too much to talk about so I&amp;rsquo;ll just show a few of the models I&amp;rsquo;ve made.</description>
     </item>
     <item>
       <title>TIG/MIG Welding</title>
-      <link>http://localhost:1313/posts/welding-files/</link>
+      <link>https://robinwang.github.io/posts/welding-files/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/welding-files/</guid>
+      <guid>https://robinwang.github.io/posts/welding-files/</guid>
       <description>A high capacity cargo platform capable of lifting test equipment into the air remain on station for extended periods of time.</description>
     </item>
     <item>
       <title>Long Endurance Fixed Wing Camera Platform</title>
-      <link>http://localhost:1313/posts/mfe-believer/</link>
+      <link>https://robinwang.github.io/posts/mfe-believer/</link>
       <pubDate>Thu, 11 Apr 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mfe-believer/</guid>
+      <guid>https://robinwang.github.io/posts/mfe-believer/</guid>
       <description>A autonomous, long endurance, high altitude camera platform for gimballed fpv
 Overview I planned out this aircraft to solely focus on efficiency and stable flight performance. With a 5.5Kg max takeoff weight and two 6s 10aH lipo batteries, this aircraft can stay in the air for over 3 hours. Swap one of the batteries for a downward facing DSLR camera and the aircraft becomes a capable mapping platform. Control is handled via the latest H7 processor running arduplane firmware enabling the aircraft to navigate autonomously, accept waypoint missions, and operate a three axis gimbal installed in the nose.</description>
     </item>
     <item>
       <title>Oceangoing Autonomous Catamaran</title>
-      <link>http://localhost:1313/posts/auto-catamaran/</link>
+      <link>https://robinwang.github.io/posts/auto-catamaran/</link>
       <pubDate>Wed, 10 Apr 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/auto-catamaran/</guid>
+      <guid>https://robinwang.github.io/posts/auto-catamaran/</guid>
       <description>A research project in my university lab with the aim to develop highly modular, 3D printable unmanned surface vehicles (USVs) for research and cargo transport
 Overview I originally modeled this vessel two years before its construction because I wanted to make an oceangoing RC boat that I could use to lower a camera under water to watch marine life. The project stayed as a model on my computer until the present day when I enrolled in a robotics class in uni.</description>
     </item>
     <item>
       <title>Subnautica Survival Knife</title>
-      <link>http://localhost:1313/posts/subnautica-knife/</link>
+      <link>https://robinwang.github.io/posts/subnautica-knife/</link>
       <pubDate>Mon, 26 Feb 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/subnautica-knife/</guid>
+      <guid>https://robinwang.github.io/posts/subnautica-knife/</guid>
       <description>This is 1:1 replica of the iconic survival knife from the game subnautica.
 Table of Contents Overview Inspiration In Game Reference CAD Prototyping Blade Fabrication Laser Cutting Electro Etching Edge Grinding Vacuum Furanace Heat Treating DIY Hardening Professional Hardening Chemical Laser Etching Sharpening Handle Fabrication 3D Printing Resin Casting Final Assembly Packaging Cost/Stats Material Costs Tools Costs Service Fees Revenue Profit(?) Conclusion Overview This was my first project into blade smithing and low volume mass production, as well as my first attempt at selling a product.</description>
     </item>
     <item>
       <title>All in One Drone Control Terminal (Cyberdeck)</title>
-      <link>http://localhost:1313/posts/cyber-deck/</link>
+      <link>https://robinwang.github.io/posts/cyber-deck/</link>
       <pubDate>Fri, 06 Oct 2023 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/cyber-deck/</guid>
+      <guid>https://robinwang.github.io/posts/cyber-deck/</guid>
       <description>A computer, FPV video system, SDR radio, RC transmitter, and power system enclosed in a weatherprood case
 Overview The objective of this project was to create an all in one solution for controlling drones in the field. The main systems are a laptop, FPV monitor, secondary monitor, SDR radio, RC transitter, and power system. The secondary objective was to improve thin metal welding and battery construction. After many prototypes, all systems are working properly.</description>
     </item>
     <item>
       <title>Solar Ebike</title>
-      <link>http://localhost:1313/posts/solar-ebike/</link>
+      <link>https://robinwang.github.io/posts/solar-ebike/</link>
       <pubDate>Tue, 27 Jun 2023 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/solar-ebike/</guid>
+      <guid>https://robinwang.github.io/posts/solar-ebike/</guid>
       <description>350 watts of light weight solar panels on a custom frame fixed to a trailer providing a significant boost to ebike range and allowing remote drone flying
 Table of Contents Overview Shortcomings Initial Specifications Hardware Plan Electrical Enclosure Test Fit Electrical Enclosure CAD Models Electrical Enclosure Complted Hub Motor Modifications Suspension Fork Electrical Plan Simplified Electrical Layout Detailed Electrical Layout Fault Detection Electrical Wiring Finished Build Solar Panels Trailer Circuitry Testing Regen Braking Test Method Solar Trailer Test Method Testing Conclusion Conclusion Gallery Overview This vehicle is a continuation of my E-Cargo bike project and represents a major overhaul of the bike&amp;rsquo;s electrical system in addition to hardware modifications to accomodate solar panels.</description>
     </item>
     <item>
       <title>High Payload Fixed Wing Testbed</title>
-      <link>http://localhost:1313/posts/skywalker-titan/</link>
+      <link>https://robinwang.github.io/posts/skywalker-titan/</link>
       <pubDate>Fri, 28 Oct 2022 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/skywalker-titan/</guid>
+      <guid>https://robinwang.github.io/posts/skywalker-titan/</guid>
       <description>A high capacity cargo platform capable of lifting test equipment into the air remain on station for extended periods of time.
 Overview The purpose of this airframe is to test experimental avionics and payloads. The airframe has high internal volume to fit bulky cargo as well as hardpoints on both wings for external loads. While the original intention was for this plane to fly, I&amp;rsquo;ve deemed the risk too high and as such, this airframe is to remain on the ground for testing.</description>
     </item>
     <item>
       <title>Tricopter VTOL</title>
-      <link>http://localhost:1313/posts/tricopter-vtol/</link>
+      <link>https://robinwang.github.io/posts/tricopter-vtol/</link>
       <pubDate>Fri, 07 Oct 2022 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/tricopter-vtol/</guid>
+      <guid>https://robinwang.github.io/posts/tricopter-vtol/</guid>
       <description>A small tricopter vtol allowing for fun fixed wing FPV out of areas that lack runway space
 Overview This project was my introduction into ardupilots and autonomous flight. Prior to this, all my models were simple RC planes which were either entirely manually controlled or had limited flight stabilization built into the receivers. It was a steep learning curve to start with a vtol but provided an excellent teaching experience.</description>
     </item>
     <item>
       <title>Cargo (E)Bike</title>
-      <link>http://localhost:1313/posts/cargo-bike/</link>
+      <link>https://robinwang.github.io/posts/cargo-bike/</link>
       <pubDate>Tue, 07 Jun 2022 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/cargo-bike/</guid>
+      <guid>https://robinwang.github.io/posts/cargo-bike/</guid>
       <description>My reliable and extremely capable transport for the last few years. With over 400 lbs of carrying capacity and excellent off road handling, it&amp;rsquo;s a go-anywhere machine.
 Table of Contents Overview Hardware Mods Cargo Bags/Rack Electrification Trailer Dashcams Conclusion Strange Cargo Overview I initially conceieved this idea as a compromise between my like for biking and my need to transport more than average amounts of equipment. The cargo bike is a perfect vehicle as it&amp;rsquo;s cheaper to operate than a car and allows me to bring my cargo directly into buildings instead of walking the last stretch on foot.</description>
     </item>
     <item>
       <title>Yonder Dynamics</title>
-      <link>http://localhost:1313/posts/yonder-dynamics/</link>
+      <link>https://robinwang.github.io/posts/yonder-dynamics/</link>
       <pubDate>Mon, 21 Feb 2022 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/yonder-dynamics/</guid>
+      <guid>https://robinwang.github.io/posts/yonder-dynamics/</guid>
       <description>As a member and lead of electrical team, Yonder Dynamics was one of the most fun experiences I&amp;rsquo;ve had and taught me so much about engineering</description>
     </item>
     <item>
       <title>Subnautica Spy Pengling</title>
-      <link>http://localhost:1313/posts/spy-pengling/</link>
+      <link>https://robinwang.github.io/posts/spy-pengling/</link>
       <pubDate>Sat, 23 Jan 2021 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/spy-pengling/</guid>
+      <guid>https://robinwang.github.io/posts/spy-pengling/</guid>
       <description>This is 1:1 functional replica of the spy pengling robot from the game Subnautica - Below Zero.
 Overview This was my first large scale CAD assembly design. I wanted to make it as accurate as possible but also functional so I could drive it around like an RC car. Looking back, it shows hows crude my manufacturing techniques were but gave invaluable insight into how to better design robots.
 CAD Model Drivetrain track pods each housing two brushed motorsThe CAD model can be divided into three primary sections which are the drivetrain, body, and head.</description>
     </item>
     <item>
       <title>1:12 Scale GPS/Compass Guided RC Car</title>
-      <link>http://localhost:1313/posts/auto-car/</link>
+      <link>https://robinwang.github.io/posts/auto-car/</link>
       <pubDate>Sun, 08 Dec 2019 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/auto-car/</guid>
+      <guid>https://robinwang.github.io/posts/auto-car/</guid>
       <description>A 1:12 scale rc buggy fitted with GPS/compass and proximity sensing hardware allowing for autonomous waypoint navigation. This project was constructed over covid lockdown and was my first complex robotics project. The objective of this project was to learn about microcontrollers and the design procedure constructing a robot. Its construction involved arduinos, 3D printing, and GPS tech. Because it was my first non plug-n-play project, I lacked many basic skills including soldering, hence the very strange design choices.</description>
     </item>
     <item>
       <title>Arduino Terrarium</title>
-      <link>http://localhost:1313/posts/terrarium/</link>
+      <link>https://robinwang.github.io/posts/terrarium/</link>
       <pubDate>Fri, 07 Jun 2019 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/terrarium/</guid>
+      <guid>https://robinwang.github.io/posts/terrarium/</guid>
       <description>Overview This was a project I made in high school for my AP biology class final project. The idea is a smart terrarium constructed out ot recycled parts. The frame is an old PC tower and the old ATX power supply holder was converted into an electronics housing for powering the terrarium&amp;rsquo;s various functions. At the bottom of the frame, covered in dirt, is a water reservoir which is pumped up the concrete tower and flows back down via a waterfall.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://robinwang.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://robinwang.github.io/about/</guid>
       <description>Some info about myself. My name is Robin Wang and I am currently a 3rd year computer engineering major at University of California, San Diego. Aside from the regular university classes, I am an avid robotics enthusiast and have built several projects related to the topic.</description>
     </item>
   </channel>

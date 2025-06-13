@@ -2,183 +2,183 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Robin Wang</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://robinwang.github.io/categories/</link>
     <description>Recent content in Categories on Robin Wang</description>
     <image>
       <title>Robin Wang</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://robinwang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://robinwang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.128.1</generator>
     <language>en</language>
     <lastBuildDate>Mon, 04 Nov 2024 03:24:40 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://robinwang.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Boat</title>
-      <link>http://localhost:1313/categories/boat/</link>
+      <link>https://robinwang.github.io/categories/boat/</link>
       <pubDate>Mon, 04 Nov 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/boat/</guid>
+      <guid>https://robinwang.github.io/categories/boat/</guid>
       <description></description>
     </item>
     <item>
       <title>CAD</title>
-      <link>http://localhost:1313/categories/cad/</link>
+      <link>https://robinwang.github.io/categories/cad/</link>
       <pubDate>Mon, 04 Nov 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/cad/</guid>
+      <guid>https://robinwang.github.io/categories/cad/</guid>
       <description></description>
     </item>
     <item>
       <title>Drone</title>
-      <link>http://localhost:1313/categories/drone/</link>
+      <link>https://robinwang.github.io/categories/drone/</link>
       <pubDate>Mon, 04 Nov 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/drone/</guid>
+      <guid>https://robinwang.github.io/categories/drone/</guid>
       <description></description>
     </item>
     <item>
       <title>RC</title>
-      <link>http://localhost:1313/categories/rc/</link>
+      <link>https://robinwang.github.io/categories/rc/</link>
       <pubDate>Mon, 04 Nov 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/rc/</guid>
+      <guid>https://robinwang.github.io/categories/rc/</guid>
       <description></description>
     </item>
     <item>
       <title>Database&#34;</title>
-      <link>http://localhost:1313/categories/database/</link>
+      <link>https://robinwang.github.io/categories/database/</link>
       <pubDate>Sat, 07 Sep 2024 12:30:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/database/</guid>
+      <guid>https://robinwang.github.io/categories/database/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>http://localhost:1313/categories/software/</link>
+      <link>https://robinwang.github.io/categories/software/</link>
       <pubDate>Sat, 07 Sep 2024 12:30:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/software/</guid>
+      <guid>https://robinwang.github.io/categories/software/</guid>
       <description></description>
     </item>
     <item>
       <title>Bike</title>
-      <link>http://localhost:1313/categories/bike/</link>
+      <link>https://robinwang.github.io/categories/bike/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/bike/</guid>
+      <guid>https://robinwang.github.io/categories/bike/</guid>
       <description></description>
     </item>
     <item>
       <title>Metalworking</title>
-      <link>http://localhost:1313/categories/metalworking/</link>
+      <link>https://robinwang.github.io/categories/metalworking/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/metalworking/</guid>
+      <guid>https://robinwang.github.io/categories/metalworking/</guid>
       <description></description>
     </item>
     <item>
       <title>Ardupilot</title>
-      <link>http://localhost:1313/categories/ardupilot/</link>
+      <link>https://robinwang.github.io/categories/ardupilot/</link>
       <pubDate>Thu, 11 Apr 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/ardupilot/</guid>
+      <guid>https://robinwang.github.io/categories/ardupilot/</guid>
       <description></description>
     </item>
     <item>
       <title>Plane</title>
-      <link>http://localhost:1313/categories/plane/</link>
+      <link>https://robinwang.github.io/categories/plane/</link>
       <pubDate>Thu, 11 Apr 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/plane/</guid>
+      <guid>https://robinwang.github.io/categories/plane/</guid>
       <description></description>
     </item>
     <item>
       <title>Art</title>
-      <link>http://localhost:1313/categories/art/</link>
+      <link>https://robinwang.github.io/categories/art/</link>
       <pubDate>Mon, 26 Feb 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/art/</guid>
+      <guid>https://robinwang.github.io/categories/art/</guid>
       <description></description>
     </item>
     <item>
       <title>Cosplay</title>
-      <link>http://localhost:1313/categories/cosplay/</link>
+      <link>https://robinwang.github.io/categories/cosplay/</link>
       <pubDate>Mon, 26 Feb 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/cosplay/</guid>
+      <guid>https://robinwang.github.io/categories/cosplay/</guid>
       <description></description>
     </item>
     <item>
       <title>Knife</title>
-      <link>http://localhost:1313/categories/knife/</link>
+      <link>https://robinwang.github.io/categories/knife/</link>
       <pubDate>Mon, 26 Feb 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/knife/</guid>
+      <guid>https://robinwang.github.io/categories/knife/</guid>
       <description></description>
     </item>
     <item>
       <title>Video Game</title>
-      <link>http://localhost:1313/categories/video-game/</link>
+      <link>https://robinwang.github.io/categories/video-game/</link>
       <pubDate>Mon, 26 Feb 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/video-game/</guid>
+      <guid>https://robinwang.github.io/categories/video-game/</guid>
       <description></description>
     </item>
     <item>
       <title>Electrial</title>
-      <link>http://localhost:1313/categories/electrial/</link>
+      <link>https://robinwang.github.io/categories/electrial/</link>
       <pubDate>Fri, 06 Oct 2023 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/electrial/</guid>
+      <guid>https://robinwang.github.io/categories/electrial/</guid>
       <description></description>
     </item>
     <item>
       <title>Arduino</title>
-      <link>http://localhost:1313/categories/arduino/</link>
+      <link>https://robinwang.github.io/categories/arduino/</link>
       <pubDate>Tue, 27 Jun 2023 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/arduino/</guid>
+      <guid>https://robinwang.github.io/categories/arduino/</guid>
       <description></description>
     </item>
     <item>
       <title>Bikepacking</title>
-      <link>http://localhost:1313/categories/bikepacking/</link>
+      <link>https://robinwang.github.io/categories/bikepacking/</link>
       <pubDate>Tue, 27 Jun 2023 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/bikepacking/</guid>
+      <guid>https://robinwang.github.io/categories/bikepacking/</guid>
       <description></description>
     </item>
     <item>
       <title>Electrical</title>
-      <link>http://localhost:1313/categories/electrical/</link>
+      <link>https://robinwang.github.io/categories/electrical/</link>
       <pubDate>Tue, 27 Jun 2023 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/electrical/</guid>
+      <guid>https://robinwang.github.io/categories/electrical/</guid>
       <description></description>
     </item>
     <item>
       <title>Vehicle</title>
-      <link>http://localhost:1313/categories/vehicle/</link>
+      <link>https://robinwang.github.io/categories/vehicle/</link>
       <pubDate>Tue, 27 Jun 2023 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/vehicle/</guid>
+      <guid>https://robinwang.github.io/categories/vehicle/</guid>
       <description></description>
     </item>
     <item>
       <title>Copter</title>
-      <link>http://localhost:1313/categories/copter/</link>
+      <link>https://robinwang.github.io/categories/copter/</link>
       <pubDate>Fri, 07 Oct 2022 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/copter/</guid>
+      <guid>https://robinwang.github.io/categories/copter/</guid>
       <description></description>
     </item>
     <item>
       <title>Robotics</title>
-      <link>http://localhost:1313/categories/robotics/</link>
+      <link>https://robinwang.github.io/categories/robotics/</link>
       <pubDate>Mon, 21 Feb 2022 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/robotics/</guid>
+      <guid>https://robinwang.github.io/categories/robotics/</guid>
       <description></description>
     </item>
     <item>
       <title>Prop</title>
-      <link>http://localhost:1313/categories/prop/</link>
+      <link>https://robinwang.github.io/categories/prop/</link>
       <pubDate>Sat, 23 Jan 2021 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/prop/</guid>
+      <guid>https://robinwang.github.io/categories/prop/</guid>
       <description></description>
     </item>
     <item>
       <title>Car</title>
-      <link>http://localhost:1313/categories/car/</link>
+      <link>https://robinwang.github.io/categories/car/</link>
       <pubDate>Sun, 08 Dec 2019 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/car/</guid>
+      <guid>https://robinwang.github.io/categories/car/</guid>
       <description></description>
     </item>
     <item>
       <title>Biology</title>
-      <link>http://localhost:1313/categories/biology/</link>
+      <link>https://robinwang.github.io/categories/biology/</link>
       <pubDate>Fri, 07 Jun 2019 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/categories/biology/</guid>
+      <guid>https://robinwang.github.io/categories/biology/</guid>
       <description></description>
     </item>
   </channel>

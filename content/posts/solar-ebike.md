@@ -141,7 +141,7 @@ The power pathway starts from the battery where it is sent into the high voltage
 In order to ensure all systems are operating as intended, the overhaul introduces fused connections, fault detection, and datalogging to the bike. This system divides the bike into several nodes each containing its own microcontroller. When a fault is detected, the microcontroller logs the issue before sending it to the central node which informs the cockpit dashboard of the fault.
 
 
-![Fault Detection Circuit](circuit2.png)
+![Fault Detection Circuit](circuit.png)
 
 ## Electrical Wiring
 

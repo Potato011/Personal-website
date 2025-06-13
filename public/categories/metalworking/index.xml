@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Metalworking on Robin Wang</title>
-    <link>http://localhost:1313/categories/metalworking/</link>
+    <link>https://robinwang.github.io/categories/metalworking/</link>
     <description>Recent content in Metalworking on Robin Wang</description>
     <image>
       <title>Robin Wang</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://robinwang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://robinwang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.128.1</generator>
     <language>en</language>
     <lastBuildDate>Fri, 05 Jul 2024 03:24:40 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/metalworking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://robinwang.github.io/categories/metalworking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TIG/MIG Welding</title>
-      <link>http://localhost:1313/posts/welding-files/</link>
+      <link>https://robinwang.github.io/posts/welding-files/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/welding-files/</guid>
+      <guid>https://robinwang.github.io/posts/welding-files/</guid>
       <description>A high capacity cargo platform capable of lifting test equipment into the air remain on station for extended periods of time.</description>
     </item>
     <item>
       <title>Subnautica Survival Knife</title>
-      <link>http://localhost:1313/posts/subnautica-knife/</link>
+      <link>https://robinwang.github.io/posts/subnautica-knife/</link>
       <pubDate>Mon, 26 Feb 2024 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/subnautica-knife/</guid>
+      <guid>https://robinwang.github.io/posts/subnautica-knife/</guid>
       <description>This is 1:1 replica of the iconic survival knife from the game subnautica.
 Table of Contents Overview Inspiration In Game Reference CAD Prototyping Blade Fabrication Laser Cutting Electro Etching Edge Grinding Vacuum Furanace Heat Treating DIY Hardening Professional Hardening Chemical Laser Etching Sharpening Handle Fabrication 3D Printing Resin Casting Final Assembly Packaging Cost/Stats Material Costs Tools Costs Service Fees Revenue Profit(?) Conclusion Overview This was my first project into blade smithing and low volume mass production, as well as my first attempt at selling a product.</description>
     </item>
     <item>
       <title>Cargo (E)Bike</title>
-      <link>http://localhost:1313/posts/cargo-bike/</link>
+      <link>https://robinwang.github.io/posts/cargo-bike/</link>
       <pubDate>Tue, 07 Jun 2022 03:24:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/cargo-bike/</guid>
+      <guid>https://robinwang.github.io/posts/cargo-bike/</guid>
       <description>My reliable and extremely capable transport for the last few years. With over 400 lbs of carrying capacity and excellent off road handling, it&amp;rsquo;s a go-anywhere machine.
 Table of Contents Overview Hardware Mods Cargo Bags/Rack Electrification Trailer Dashcams Conclusion Strange Cargo Overview I initially conceieved this idea as a compromise between my like for biking and my need to transport more than average amounts of equipment. The cargo bike is a perfect vehicle as it&amp;rsquo;s cheaper to operate than a car and allows me to bring my cargo directly into buildings instead of walking the last stretch on foot.</description>
     </item>
