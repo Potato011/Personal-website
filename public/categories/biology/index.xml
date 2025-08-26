@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Biology on Robin Wang</title>
-    <link>https://robinwang.github.io/categories/biology/</link>
+    <link>http://localhost:1313/categories/biology/</link>
     <description>Recent content in Biology on Robin Wang</description>
     <image>
       <title>Robin Wang</title>
-      <url>https://robinwang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://robinwang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.128.1</generator>
     <language>en</language>
     <lastBuildDate>Fri, 07 Jun 2019 03:24:40 +0000</lastBuildDate>
-    <atom:link href="https://robinwang.github.io/categories/biology/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/biology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arduino Terrarium</title>
-      <link>https://robinwang.github.io/posts/terrarium/</link>
+      <link>http://localhost:1313/posts/terrarium/</link>
       <pubDate>Fri, 07 Jun 2019 03:24:40 +0000</pubDate>
-      <guid>https://robinwang.github.io/posts/terrarium/</guid>
+      <guid>http://localhost:1313/posts/terrarium/</guid>
       <description>Overview This was a project I made in high school for my AP biology class final project. The idea is a smart terrarium constructed out ot recycled parts. The frame is an old PC tower and the old ATX power supply holder was converted into an electronics housing for powering the terrarium&amp;rsquo;s various functions. At the bottom of the frame, covered in dirt, is a water reservoir which is pumped up the concrete tower and flows back down via a waterfall.</description>
     </item>
   </channel>

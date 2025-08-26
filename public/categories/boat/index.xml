@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Boat on Robin Wang</title>
-    <link>https://robinwang.github.io/categories/boat/</link>
+    <link>http://localhost:1313/categories/boat/</link>
     <description>Recent content in Boat on Robin Wang</description>
     <image>
       <title>Robin Wang</title>
-      <url>https://robinwang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://robinwang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.128.1</generator>
     <language>en</language>
     <lastBuildDate>Mon, 04 Nov 2024 03:24:40 +0000</lastBuildDate>
-    <atom:link href="https://robinwang.github.io/categories/boat/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/boat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Autonomous Catamaran MOD 2</title>
-      <link>https://robinwang.github.io/posts/auto-catamaran-mod2/</link>
+      <link>http://localhost:1313/posts/auto-catamaran-mod2/</link>
       <pubDate>Mon, 04 Nov 2024 03:24:40 +0000</pubDate>
-      <guid>https://robinwang.github.io/posts/auto-catamaran-mod2/</guid>
+      <guid>http://localhost:1313/posts/auto-catamaran-mod2/</guid>
       <description>Table of Contents Overview Design Considerations Operational Manufacturing Conceptual Design &amp;amp; Studies Hull Design Acetone Welding/Assembly Seakeeping Propulsion Navigation Electrical Layout Gallery Construction Testing Results/Analysis Improvements Conclusion Overview A production model of the ongoing catamaran USV project. This hull emphasizes portability and waterproofness, implementing many features from previous design along with several new design elements. This craft is designed to be the most reliable and versatile craft, being easily transportable, having large payload capacity, long mission endurance.</description>
     </item>
     <item>
       <title>Autonomous Catamaran MOD 1</title>
-      <link>https://robinwang.github.io/posts/auto-catamaran-mod1/</link>
+      <link>http://localhost:1313/posts/auto-catamaran-mod1/</link>
       <pubDate>Fri, 16 Aug 2024 03:24:40 +0000</pubDate>
-      <guid>https://robinwang.github.io/posts/auto-catamaran-mod1/</guid>
+      <guid>http://localhost:1313/posts/auto-catamaran-mod1/</guid>
       <description>A revised version of the Oceangoing Catamaran USV project.
 Overview Following the construction and testing of the first Oceangoing Catamaran USV project, it was decided that a larger platform was needed to handle th rough conditions of the ocean. A major consideration was waterproofing the entire hull and streamline it for cutting through waves.
 view 1Hull Changes One of the largest changes was the switch from a traditional bow to an axe bow.</description>
     </item>
     <item>
       <title>Oceangoing Autonomous Catamaran</title>
-      <link>https://robinwang.github.io/posts/auto-catamaran/</link>
+      <link>http://localhost:1313/posts/auto-catamaran/</link>
       <pubDate>Wed, 10 Apr 2024 03:24:40 +0000</pubDate>
-      <guid>https://robinwang.github.io/posts/auto-catamaran/</guid>
+      <guid>http://localhost:1313/posts/auto-catamaran/</guid>
       <description>A research project in my university lab with the aim to develop highly modular, 3D printable unmanned surface vehicles (USVs) for research and cargo transport
 Overview I originally modeled this vessel two years before its construction because I wanted to make an oceangoing RC boat that I could use to lower a camera under water to watch marine life. The project stayed as a model on my computer until the present day when I enrolled in a robotics class in uni.</description>
     </item>

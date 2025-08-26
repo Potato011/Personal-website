@@ -1,0 +1,13 @@
+.large-text {
+    font-size: 2rem;
+}
+
+.extra-large {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-text {
+    font-size: 4rem;
+    line-height: 1.2;
+}

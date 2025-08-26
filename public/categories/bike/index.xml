@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Bike on Robin Wang</title>
-    <link>https://robinwang.github.io/categories/bike/</link>
+    <link>http://localhost:1313/categories/bike/</link>
     <description>Recent content in Bike on Robin Wang</description>
     <image>
       <title>Robin Wang</title>
-      <url>https://robinwang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://robinwang.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.128.1</generator>
     <language>en</language>
     <lastBuildDate>Fri, 05 Jul 2024 03:24:40 +0000</lastBuildDate>
-    <atom:link href="https://robinwang.github.io/categories/bike/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/bike/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bikepacking Adventures</title>
-      <link>https://robinwang.github.io/posts/bike-packing/</link>
+      <link>http://localhost:1313/posts/bike-packing/</link>
       <pubDate>Fri, 05 Jul 2024 03:24:40 +0000</pubDate>
-      <guid>https://robinwang.github.io/posts/bike-packing/</guid>
+      <guid>http://localhost:1313/posts/bike-packing/</guid>
       <description>I&amp;rsquo;m a bikepacking enthusiast and have gone on many trips exploring the surronding areas. Biking through the natural beauty is always a great experience.
 Cleveland National Forest First bikepacking trip. We aimed to get to mt laguna but didn&amp;rsquo;t make it. Good learning experience Cleveland National Forest (again) Second attempt with friend. Different destination but very successful. Tecate trip longest trip so far - 3 days from san diego to tecate to alpine.</description>
     </item>
     <item>
       <title>Solar Ebike</title>
-      <link>https://robinwang.github.io/posts/solar-ebike/</link>
+      <link>http://localhost:1313/posts/solar-ebike/</link>
       <pubDate>Tue, 27 Jun 2023 03:24:40 +0000</pubDate>
-      <guid>https://robinwang.github.io/posts/solar-ebike/</guid>
+      <guid>http://localhost:1313/posts/solar-ebike/</guid>
       <description>350 watts of light weight solar panels on a custom frame fixed to a trailer providing a significant boost to ebike range and allowing remote drone flying
 Table of Contents Overview Shortcomings Initial Specifications Hardware Plan Electrical Enclosure Test Fit Electrical Enclosure CAD Models Electrical Enclosure Complted Hub Motor Modifications Suspension Fork Electrical Plan Simplified Electrical Layout Detailed Electrical Layout Fault Detection Electrical Wiring Finished Build Solar Panels Trailer Circuitry Testing Regen Braking Test Method Solar Trailer Test Method Testing Conclusion Conclusion Gallery Overview This vehicle is a continuation of my E-Cargo bike project and represents a major overhaul of the bike&amp;rsquo;s electrical system in addition to hardware modifications to accomodate solar panels.</description>
     </item>
     <item>
       <title>Cargo (E)Bike</title>
-      <link>https://robinwang.github.io/posts/cargo-bike/</link>
+      <link>http://localhost:1313/posts/cargo-bike/</link>
       <pubDate>Tue, 07 Jun 2022 03:24:40 +0000</pubDate>
-      <guid>https://robinwang.github.io/posts/cargo-bike/</guid>
+      <guid>http://localhost:1313/posts/cargo-bike/</guid>
       <description>My reliable and extremely capable transport for the last few years. With over 400 lbs of carrying capacity and excellent off road handling, it&amp;rsquo;s a go-anywhere machine.
 Table of Contents Overview Hardware Mods Cargo Bags/Rack Electrification Trailer Dashcams Conclusion Strange Cargo Overview I initially conceieved this idea as a compromise between my like for biking and my need to transport more than average amounts of equipment. The cargo bike is a perfect vehicle as it&amp;rsquo;s cheaper to operate than a car and allows me to bring my cargo directly into buildings instead of walking the last stretch on foot.</description>
     </item>

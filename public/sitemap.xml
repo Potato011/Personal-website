@@ -2,149 +2,152 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://robinwang.github.io/posts/auto-catamaran-mod2/</loc>
+    <loc>http://localhost:1313/categories/art/</loc>
+    <lastmod>2025-02-21T03:24:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/cad/</loc>
+    <lastmod>2025-02-21T03:24:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-02-21T03:24:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/cosplay/</loc>
+    <lastmod>2025-02-21T03:24:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/electrical/</loc>
+    <lastmod>2025-02-21T03:24:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-02-21T03:24:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-02-21T03:24:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/m4a1-jupiter-cannon/</loc>
+    <lastmod>2025-02-21T03:24:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/video-game/</loc>
+    <lastmod>2025-02-21T03:24:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/auto-catamaran-mod2/</loc>
     <lastmod>2024-11-04T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/boat/</loc>
+    <loc>http://localhost:1313/categories/boat/</loc>
     <lastmod>2024-11-04T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/cad/</loc>
+    <loc>http://localhost:1313/categories/drone/</loc>
     <lastmod>2024-11-04T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/rc/</loc>
     <lastmod>2024-11-04T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/drone/</loc>
-    <lastmod>2024-11-04T03:24:40+00:00</lastmod>
-  </url><url>
-    <loc>https://robinwang.github.io/posts/</loc>
-    <lastmod>2024-11-04T03:24:40+00:00</lastmod>
-  </url><url>
-    <loc>https://robinwang.github.io/categories/rc/</loc>
-    <lastmod>2024-11-04T03:24:40+00:00</lastmod>
-  </url><url>
-    <loc>https://robinwang.github.io/</loc>
-    <lastmod>2024-11-04T03:24:40+00:00</lastmod>
-  </url><url>
-    <loc>https://robinwang.github.io/posts/folding-ebike/</loc>
+    <loc>http://localhost:1313/posts/folding-ebike/</loc>
     <lastmod>2024-10-23T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/database/</loc>
+    <loc>http://localhost:1313/categories/database/</loc>
     <lastmod>2024-09-07T12:30:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/posts/inventory-system/</loc>
+    <loc>http://localhost:1313/posts/inventory-system/</loc>
     <lastmod>2024-09-07T12:30:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/software/</loc>
+    <loc>http://localhost:1313/categories/software/</loc>
     <lastmod>2024-09-07T12:30:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/posts/auto-catamaran-mod1/</loc>
+    <loc>http://localhost:1313/posts/auto-catamaran-mod1/</loc>
     <lastmod>2024-08-16T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/posts/3d-printing/</loc>
+    <loc>http://localhost:1313/posts/3d-printing/</loc>
     <lastmod>2024-07-05T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/bike/</loc>
+    <loc>http://localhost:1313/categories/bike/</loc>
     <lastmod>2024-07-05T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/posts/bike-packing/</loc>
+    <loc>http://localhost:1313/posts/bike-packing/</loc>
     <lastmod>2024-07-05T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/posts/cad-files/</loc>
+    <loc>http://localhost:1313/posts/cad-files/</loc>
     <lastmod>2024-07-05T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/metalworking/</loc>
+    <loc>http://localhost:1313/categories/metalworking/</loc>
     <lastmod>2024-07-05T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/posts/welding-files/</loc>
+    <loc>http://localhost:1313/posts/welding-files/</loc>
     <lastmod>2024-07-05T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/ardupilot/</loc>
+    <loc>http://localhost:1313/categories/ardupilot/</loc>
     <lastmod>2024-04-11T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/posts/mfe-believer/</loc>
+    <loc>http://localhost:1313/posts/mfe-believer/</loc>
     <lastmod>2024-04-11T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/plane/</loc>
+    <loc>http://localhost:1313/categories/plane/</loc>
     <lastmod>2024-04-11T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/posts/auto-catamaran/</loc>
+    <loc>http://localhost:1313/posts/auto-catamaran/</loc>
     <lastmod>2024-04-10T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/art/</loc>
+    <loc>http://localhost:1313/categories/knife/</loc>
     <lastmod>2024-02-26T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/cosplay/</loc>
+    <loc>http://localhost:1313/posts/subnautica-knife/</loc>
     <lastmod>2024-02-26T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/knife/</loc>
-    <lastmod>2024-02-26T03:24:40+00:00</lastmod>
-  </url><url>
-    <loc>https://robinwang.github.io/posts/subnautica-knife/</loc>
-    <lastmod>2024-02-26T03:24:40+00:00</lastmod>
-  </url><url>
-    <loc>https://robinwang.github.io/categories/video-game/</loc>
-    <lastmod>2024-02-26T03:24:40+00:00</lastmod>
-  </url><url>
-    <loc>https://robinwang.github.io/posts/cyber-deck/</loc>
+    <loc>http://localhost:1313/posts/cyber-deck/</loc>
     <lastmod>2023-10-06T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/electrial/</loc>
+    <loc>http://localhost:1313/categories/electrial/</loc>
     <lastmod>2023-10-06T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/arduino/</loc>
+    <loc>http://localhost:1313/categories/arduino/</loc>
     <lastmod>2023-06-27T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/bikepacking/</loc>
+    <loc>http://localhost:1313/categories/bikepacking/</loc>
     <lastmod>2023-06-27T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/electrical/</loc>
+    <loc>http://localhost:1313/posts/solar-ebike/</loc>
     <lastmod>2023-06-27T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/posts/solar-ebike/</loc>
+    <loc>http://localhost:1313/categories/vehicle/</loc>
     <lastmod>2023-06-27T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/vehicle/</loc>
-    <lastmod>2023-06-27T03:24:40+00:00</lastmod>
-  </url><url>
-    <loc>https://robinwang.github.io/posts/skywalker-titan/</loc>
+    <loc>http://localhost:1313/posts/skywalker-titan/</loc>
     <lastmod>2022-10-28T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/copter/</loc>
+    <loc>http://localhost:1313/categories/copter/</loc>
     <lastmod>2022-10-07T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/posts/tricopter-vtol/</loc>
+    <loc>http://localhost:1313/posts/tricopter-vtol/</loc>
     <lastmod>2022-10-07T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/posts/cargo-bike/</loc>
+    <loc>http://localhost:1313/posts/cargo-bike/</loc>
     <lastmod>2022-06-07T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/robotics/</loc>
+    <loc>http://localhost:1313/categories/robotics/</loc>
     <lastmod>2022-02-21T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/posts/yonder-dynamics/</loc>
+    <loc>http://localhost:1313/posts/yonder-dynamics/</loc>
     <lastmod>2022-02-21T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/prop/</loc>
+    <loc>http://localhost:1313/categories/prop/</loc>
     <lastmod>2021-01-23T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/posts/spy-pengling/</loc>
+    <loc>http://localhost:1313/posts/spy-pengling/</loc>
     <lastmod>2021-01-23T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/posts/auto-car/</loc>
+    <loc>http://localhost:1313/posts/auto-car/</loc>
     <lastmod>2019-12-08T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/car/</loc>
+    <loc>http://localhost:1313/categories/car/</loc>
     <lastmod>2019-12-08T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/posts/terrarium/</loc>
+    <loc>http://localhost:1313/posts/terrarium/</loc>
     <lastmod>2019-06-07T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/categories/biology/</loc>
+    <loc>http://localhost:1313/categories/biology/</loc>
     <lastmod>2019-06-07T03:24:40+00:00</lastmod>
   </url><url>
-    <loc>https://robinwang.github.io/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>https://robinwang.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
