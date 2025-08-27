@@ -186,7 +186,7 @@ In order to create a realistic firing effect, it was planned for a propane plasm
 
 In order for all actuators and special effects to operate correctly and safely, numerous sensors are mounted throughout the frame to monitor the position of each actuator, temperature, voltage, current, etc. 
 
-For all linear actuators, each end of travel contains a permanent magnet endstop. when the joint approaches an endstop, a hall effect sensor located on the moving assembly will detect this endstop and raise the proper flag. As a last resort, there are also mechanical endstops but will result in the actuator stalling.
+For all linear actuators, each end of travel contains hall effect sensor. When the joint approaches an endstop, a permanent magnet located on the moving assembly will be detected by this endstop which raises the proper flag. As a last resort, there are also mechanical endstops but will result in the actuator stalling.
 
 The most potentially dangerous system is the gas line. In order to prevent overheating as well as accidental gas release, the solenoid and electronic trigger both have physical disconnect switches. The solenoid in particular has a separate endstop switch that checks for potential jams in the open position. There are also temperature sensors running the length of the gas tube to monitor temperature. The gas system works with the actuator sensors to prevent activating the gas system when the barrel is not fully deployed. If any safety flags are tripped, the gas system shuts down and an error flag is sent to the central control system.
 
@@ -214,6 +214,8 @@ One of the things I hoped to get out of this project was more STM32 pcb design e
 ## Final Assembly
 
 # Programming
+
+The software's primary function is sequencing the actuation of different components in order to mirror in game motions. This includes linear actuators, lights, sound, gas sparking, etc. Additionally, it must detect faults with the system, trigger failsafes, and report them to the user. This is implemented with a combination of endstop hall effect sensors, current sensing software software timeouts.
 
 # Testing
 
