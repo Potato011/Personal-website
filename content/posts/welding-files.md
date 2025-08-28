@@ -12,4 +12,4 @@ cover:
   relative: true
 ---
 
-A high capacity cargo platform capable of lifting test equipment into the air remain on station for extended periods of time.
+I've had some amateur experience both mig and tig welding. Some of the items I've welded include a steel trailer hitch for my cargo ebike, aluminum solar panel mounts for my bike trailer, thin stainless steel panels for the cyberdeck, and a few minor art installations.
