@@ -13,12 +13,24 @@ cover:
 
 I've experimented a lot with 3d printing technologies and have constructed several rather unique machines.
 
+# Table of Contents
+- [My First 3D Printer](#my-first-3d-printer)
+  -[Automation](#automation)
+  -[Dual Extrusion](#dual-extrusion)
+- [Lab Work](#lab-work)
+  -[Water Soluble Supports](#water-soluable-supports)
+  -[Large Scale 3D Printing](#large-scale-industrial-printers)
+  -[Museum Exhibits](#museum-exhibits)
+    -[Embodied Pacific: Ocean Unseen - Unbleached](#embodied-pacific-ocean-unseen---unbleached)
+    -[Sloth pelvis - NYC museum](#sloth-pelvis---nyc-museum)
+- [Conclusion](#conclusion)
+
 # My First 3D Printer
 
 My first 3D printer was a creality CR-10S purchased around 2020. Its purchased happened when I was getting familiar with cad and I got the printer in order to print the Subnautica Spy Pengling I modeled. In the years since, this printer has undergone numerous upgrades and is still in service today. It now features remote printing, dual extruders, and a more powerful main board to accomodate additional features. While it barely competes with modern 3D printers, building it taught
 me a lot about troubleshooting 3D printers and the limitations of the technology. Since then, I've also branched out into other printers such as sla, multi material extruders, and large scale industrial printers. 
 
-# Automation
+## Automation
 
 ![automation](20220103_120655.jpg)
 
@@ -26,7 +38,7 @@ One of the first mods made to the CR-10S was the addition of a raspberry pi 3 b+
 
 ![automation 2](20230727_210521.jpg)
 
-# Dual Extrusion
+## Dual Extrusion
 
 ![dual extrusion](20230328_145947.jpg)
 
@@ -41,28 +53,47 @@ print a prime tower.
 ![makertech](20231220_144208.jpg)
 ![dual color](20231226_095534.jpg)
 
-# Water Soluable Supports
+
+# Lab Work
+
+During my time working in DroneLab/CHEI, I worked quite closely with 3D printers for the purpose of making drone frames and other large models. I mainly handled the repair and maintanence of the lab's 3D printers as well as supervising certain print jobs.
+
+## Water Soluable Supports
 
 ![soluable](20230906_151648.jpg)
 
-During my time in uni, I worked for the Qualcomm DroneLab with one of be responsibilities being the repairing and upgrading of the lab's 3D printing equipment. One such machine was the Zortrax M300, an industry grade dual extruder printer. Personally, it did not live up to my expectations and from what I heard from other lab personel, this printer had alwasy been a pain. However, it was the first printer that I tested water soluable supports with. The unique challenge with it was the wacky
-temperature settings and different print speeds needed to prevent bad adhesion. It took some trial and error but eventually worked out.
+One machine the lab had was the Zortrax M300, an industry grade dual extruder printer. Personally, it did not live up to my expectations and from what I heard from other lab personel, this printer had alwasy been a pain. However, it was the first printer that I tested water soluable supports with. The unique challenge with it was the wacky temperature settings and different print speeds needed to prevent bad adhesion. It took some trial and error but eventually worked out.
 
 ![soluable 2](20230908_115116.jpg)
 ![soluable 3](20230908_115128.jpg)
 ![soluable 4](20230908_115040.jpg)
 
-# Large Scale Industrial Printers
+## Large Scale Industrial Printers
 
 ![3dp](20230729_075419.jpg)
 
-One of the printers I maintained was a massive 3DP Workbench 300 series printer. With a 1x1x1 meter build volume and up to a 2.8mm extruder, it was capable of printing large pieces in a relatively short time. When I first started working on it, it had sat dormant for many years. To bring it back into operation, I had to upgrade the firmware and refurbish the extruder assembly. The longest process was tuning the slicer settings to prevent filament jamming. This was by far the most
-frustrating process as the all metal hotend and inadequate heat brake made heat creep a big issue. Ultimately, a combination of careful heating element positioning, retraction settings, and a custom CNCed heat brake resolved the issue. The printer is now capable of printing various materials without supervision.
+One of the printers I maintained was a massive 3DP Workbench 300 series printer. With a 1x1x1 meter build volume and up to a 2.8mm extruder, it was capable of printing large pieces in a relatively short time. When I first started working on it, it had sat dormant for many years. To bring it back into operation, I had to upgrade the firmware and refurbish the extruder assembly. The longest process was tuning the slicer settings to prevent filament jamming. This was by far the most frustrating process as the all metal hotend and inadequate heat brake made heat creep a big issue. Ultimately, a combination of careful heating element positioning, retraction settings, and various other slicer settings largly resolved this issue. The printer is now capable of reliably printing multi day prints with various materials. This was one my most rewarding experiences.
 
 ![3dp 2](20231001_182432.jpg)
 ![3dp 3](20230728_185138.jpg)
 ![3dp 4](20230729_075419.jpg)
+
+## Museum Exhibits
+
+### Embodied Pacific: Ocean Unseen - Unbleached
+After fixing the 3DP, I was tasked with using it to print several large props for display in museums. The first was a scale model of a coral outcropping destined for the "Embodied Pacific: Ocean Unseen" art exhibition in Birch Aquarium located near the UCSD campus. This particular model was for the "Unbleached" exhibit envisioned by a good friend, Scott McAvory. The setup would have an overhead projector project overlay images of that outcropping over the years onto the white 3D printed model. This would help visitors visualize the change in coral color as it degrades from ocean bleaching. The model measures over a meter long and was printed in 3 separate components joined with brackets. The entire print took over 48 hours.
+
+![coral](20241001_191700.jpg)
+![coral2](20241001_185941)
+
+### Sloth pelvis - NYC museum
+
+The second model was a 1:1 scale replica of a giant sloth pelvis for a NYC museum. Several years ago, the lab 3D scanned the sloth pelvis located at the bottom of a waterfilled sinkhole in Mexico. Using the scan, they were able to construct a custom mold to raise the fragile pelvis for display. The original is in Mexico thus a recreation was necessary for the NYC museum. The project was again headed by Scott McAvory along with myself and an archeologist who would polish the printed model. I printed this model in two pieces which were then joined by internal brackets. The most difficult aspect was boosting the cooling to prevent layer sag when printing overhangs. Optimizing this allowed me to reduce support usage. This translated to several hours saved and material savings. I really enjoyed working on this as the machine's upgrades were coming to a close and thus, working quite smoothly.
+
 ![3dp 5](pelvis.jpg)
+![pelvis3](20250316_135014.jpg)
+![pelvis4](20250316_135024.jpg)
+![pelvis2](Screenshot 2025-08-28 142543.png)
 
 # Conclusion
 

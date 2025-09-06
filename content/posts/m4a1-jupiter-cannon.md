@@ -65,9 +65,9 @@ The story takes place in an future (206x) post apocalypes alternate timeline of 
 Despite the bleak setting, the story focuses quite heavily on individual struggle as well as the desire to defy the fate the world has laided out for the main cast. I especially like the artwork of the setting which often portrayed with few colors and abstract brush strokes. As you can probably tell, I'm in it for the story (and the robots). 
 
 {{< figure src="2022winter_onway.png" title="A severely contaminated zone" >}}
-{{< figure src="2021white_slum.png" title="Civil unrest in Berlin" >}}
+{{< figure src="2021white_slum.png" title="Civil unrest in Frankfurt" >}}
 {{< figure src="19winter_biggun.png" title="Shore guns of the Paldiski submarine base located in Estonia" >}}
-{{< figure src="BG-Wall.png" title="Berlin quarantine wall between green and yellow zones" >}}
+{{< figure src="BG-Wall.png" title="Frankfurt quarantine wall between green and yellow zones" >}}
 
 ### M4A1 - Character in question
 
