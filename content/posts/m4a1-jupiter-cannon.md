@@ -30,6 +30,7 @@ A prop from a certain game that I played. This cannon of unknown origins is wiel
     - [Light Covers](#light-covers)
         - [Triange](#triangle)
         - [Triple Covers](#triple-covers)
+        - [LED Diffusers]
     - [Gas System](#gas-system)
 - [Electrical Design](#electrical-design---currently-working-on)
     - [Sensors](#sensors)
@@ -167,6 +168,9 @@ The second mechanism involves raising three panels simultaneously in the horizon
 {{< figure src="coverraised.png" title="covers raised" >}}
 {{< figure src="coversidetop.png" title="The entire assembly is narrow enoug to fit between the extrusion rails" >}}
 
+### LED Diffusers
+
+There are numerous light on the model which need to be made functional. For maximum flexibility, I will be using individually addressable led strips. The primary difficulty is that when not lit, the panel must be completely black, blending in with the surrounding black panels. This necessitates the use of a black diffuser. These are pretty rare but I was able to find a supplier. Each light window will sit flush with the body with a light strip behind it. When on, there should be a crisp, neon light and when off, there should be no trace of the light panel hidden in the larger black panel. Testing will be required.
 
 ## Gas System
 

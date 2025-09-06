@@ -15,14 +15,14 @@ I've experimented a lot with 3d printing technologies and have constructed sever
 
 # Table of Contents
 - [My First 3D Printer](#my-first-3d-printer)
-  -[Automation](#automation)
-  -[Dual Extrusion](#dual-extrusion)
+  - [Automation](#automation)
+  - [Dual Extrusion](#dual-extrusion)
 - [Lab Work](#lab-work)
-  -[Water Soluble Supports](#water-soluable-supports)
-  -[Large Scale 3D Printing](#large-scale-industrial-printers)
-  -[Museum Exhibits](#museum-exhibits)
-    -[Embodied Pacific: Ocean Unseen - Unbleached](#embodied-pacific-ocean-unseen---unbleached)
-    -[Sloth pelvis - NYC museum](#sloth-pelvis---nyc-museum)
+  - [Water Soluble Supports](#water-soluable-supports)
+  - [Large Scale 3D Printing](#large-scale-industrial-printers)
+  - [Museum Exhibits](#museum-exhibits)
+    - [Embodied Pacific: Ocean Unseen - Unbleached](#embodied-pacific-ocean-unseen---unbleached)
+    - [Sloth pelvis - NYC museum](#sloth-pelvis---nyc-museum)
 - [Conclusion](#conclusion)
 
 # My First 3D Printer
