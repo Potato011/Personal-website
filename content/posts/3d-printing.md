@@ -84,7 +84,7 @@ One of the printers I maintained was a massive 3DP Workbench 300 series printer.
 After fixing the 3DP, I was tasked with using it to print several large props for display in museums. The first was a scale model of a coral outcropping destined for the "Embodied Pacific: Ocean Unseen" art exhibition in Birch Aquarium located near the UCSD campus. This particular model was for the "Unbleached" exhibit envisioned by a good friend, Scott McAvory. The setup would have an overhead projector project overlay images of that outcropping over the years onto the white 3D printed model. This would help visitors visualize the change in coral color as it degrades from ocean bleaching. The model measures over a meter long and was printed in 3 separate components joined with brackets. The entire print took over 48 hours.
 
 ![coral](20241001_191700.jpg)
-![coral2](20241001_185941)
+![coral2](20241001_185941.jpg)
 
 ### Sloth pelvis - NYC museum
 
@@ -93,7 +93,7 @@ The second model was a 1:1 scale replica of a giant sloth pelvis for a NYC museu
 ![3dp 5](pelvis.jpg)
 ![pelvis3](20250316_135014.jpg)
 ![pelvis4](20250316_135024.jpg)
-![pelvis2](Screenshot 2025-08-28 142543.png)
+![pelvis2](pelviscomplete.png)
 
 # Conclusion
 
