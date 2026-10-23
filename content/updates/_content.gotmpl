@@ -1,0 +1,18 @@
+{{- /*
+  Creates a full page for every project update, so each update card can link to it.
+  It reads the .md files inside each project folder (content/posts/<project>/, next to index.md),
+  including subfolders, and publishes them at /posts/<project>/<subfolders>/<file-name>/.
+  The update files themselves stay where they are; nothing here needs editing.
+*/ -}}
+{{- range os.ReadDir "content/posts" }}
+  {{- $proj := .Name }}
+  {{- $index := printf "content/posts/%s/index.md" $proj }}
+  {{- if and .IsDir (fileExists $index) }}
+    {{- $title := $proj }}
+    {{- with findRESubmatch `(?s)^---\r?\n(.*?)\r?\n---` (os.ReadFile $index) }}
+      {{- with (transform.Unmarshal (index . 0 1)).title }}{{ $title = . }}{{ end }}
+    {{- end }}
+    {{- $.AddPage (dict "path" $proj "kind" "section" "title" $title) }}
+    {{- partial "updates-adapter/dir.html" (dict "ctx" $ "proj" $proj "projTitle" $title "rel" "") }}
+  {{- end }}
+{{- end }}

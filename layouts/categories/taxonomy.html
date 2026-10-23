@@ -1,0 +1,115 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  <div class="post-description">Select one or more categories to see projects that have all of them.</div>
+</header>
+
+<div class="cat-filter">
+  <ul class="terms-tags cat-filter-tags">
+    {{- range .Data.Terms.Alphabetical }}
+    <li>
+      <button type="button" class="cat-chip" data-cat="{{ .Name | urlize }}" aria-pressed="false">
+        {{ .Page.LinkTitle }} <sup>{{ .Count }}</sup>
+      </button>
+    </li>
+    {{- end }}
+  </ul>
+  <div class="cat-filter-status">
+    <span id="cat-count"></span>
+    <button type="button" id="cat-clear" class="cat-clear" hidden>Clear filters</button>
+    <div id="view-slot"></div>
+  </div>
+</div>
+
+{{- $pages := where site.RegularPages "Params.categories" "!=" nil }}
+<div id="cat-results" class="view-container">
+{{- range $pages.ByDate.Reverse }}
+  {{- $cats := slice }}
+  {{- range .Params.categories }}{{ $cats = $cats | append (. | urlize) }}{{ end }}
+  <article class="post-entry cat-entry" data-cats="{{ delimit $cats " " }}">
+    {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
+    {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
+    <header class="entry-header">
+      <h2 class="entry-hint-parent">{{ .Title }}</h2>
+    </header>
+    {{- if (ne (.Param "hideSummary") true) }}
+    <div class="entry-content">
+      <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+    </div>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <footer class="entry-footer">{{- partial "post_meta.html" . -}}</footer>
+    {{- end }}
+    <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+  </article>
+{{- end }}
+</div>
+<p id="cat-empty" class="cat-empty" hidden>No projects have all of the selected categories.</p>
+
+<script>
+(function () {
+  var chips = Array.prototype.slice.call(document.querySelectorAll('.cat-chip'));
+  var entries = Array.prototype.slice.call(document.querySelectorAll('.cat-entry'));
+  var countEl = document.getElementById('cat-count');
+  var clearBtn = document.getElementById('cat-clear');
+  var emptyEl = document.getElementById('cat-empty');
+
+  function selected() {
+    return chips.filter(function (c) { return c.getAttribute('aria-pressed') === 'true'; })
+                .map(function (c) { return c.dataset.cat; });
+  }
+
+  function apply(updateUrl) {
+    var sel = selected();
+    var shown = 0;
+    entries.forEach(function (e) {
+      var cats = e.dataset.cats.split(' ');
+      var ok = sel.every(function (s) { return cats.indexOf(s) !== -1; });
+      e.hidden = !ok;
+      if (ok) shown++;
+    });
+    // Grey out categories that would give zero results if added
+    chips.forEach(function (c) {
+      if (c.getAttribute('aria-pressed') === 'true') { c.disabled = false; return; }
+      var test = sel.concat(c.dataset.cat);
+      c.disabled = !entries.some(function (e) {
+        var cats = e.dataset.cats.split(' ');
+        return test.every(function (s) { return cats.indexOf(s) !== -1; });
+      });
+    });
+    countEl.textContent = sel.length
+      ? shown + ' of ' + entries.length + ' projects'
+      : entries.length + ' projects';
+    clearBtn.hidden = sel.length === 0;
+    emptyEl.hidden = shown !== 0;
+    document.dispatchEvent(new Event('entries-filtered'));
+    if (updateUrl) {
+      var url = new URL(window.location.href);
+      if (sel.length) url.searchParams.set('tags', sel.join(','));
+      else url.searchParams.delete('tags');
+      history.replaceState(null, '', url);
+    }
+  }
+
+  chips.forEach(function (c) {
+    c.addEventListener('click', function () {
+      c.setAttribute('aria-pressed', c.getAttribute('aria-pressed') === 'true' ? 'false' : 'true');
+      apply(true);
+    });
+  });
+  clearBtn.addEventListener('click', function () {
+    chips.forEach(function (c) { c.setAttribute('aria-pressed', 'false'); });
+    apply(true);
+  });
+
+  // Restore a shared selection, e.g. /categories/?tags=drone,cad
+  var initial = (new URLSearchParams(window.location.search).get('tags') || '').split(',');
+  chips.forEach(function (c) {
+    if (initial.indexOf(c.dataset.cat) !== -1) c.setAttribute('aria-pressed', 'true');
+  });
+  apply(false);
+})();
+</script>
+
+{{- end }}{{/* end main */ -}}

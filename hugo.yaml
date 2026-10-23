@@ -1,6 +1,7 @@
 baseURL: "https://robinwang.github.io/"
 title: Robin Wang
-paginate: 10
+pagination:
+  pagerSize: 1000 # paging is done in the browser (see layouts/_partials/extend_footer.html)
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -13,6 +14,7 @@ minify:
   minifyOutput: true
 
 params:
+  mainSections: ["posts"] # keeps the generated update pages off the home page
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Robin Wang
   description: "A website to document my projects and other information"
@@ -120,7 +122,7 @@ params:
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: Categories
       url: /categories/
       weight: 10
       #- identifier: tags
@@ -149,3 +151,8 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+# Project update pages (content/updates/_content.gotmpl) are published next to their project
+permalinks:
+  page:
+    updates: /posts/:sections[1:]/:contentbasename/

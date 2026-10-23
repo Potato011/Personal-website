@@ -1,0 +1,118 @@
+/* Cards / List / Grid buttons */
+.view-toggle {
+    display: flex;
+    justify-content: flex-end;
+    gap: 4px;
+    margin-bottom: 12px;
+}
+#view-slot .view-toggle { margin-bottom: 0; }
+.view-toggle button {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 10px;
+    font: inherit;
+    font-size: 13px;
+    color: var(--secondary);
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+}
+.view-toggle button:hover { color: var(--primary); }
+.view-toggle button[aria-pressed="true"],
+.view-toggle button[aria-pressed="true"]:hover {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: var(--theme);
+}
+@media (max-width: 420px) {
+    .view-toggle button span { display: none; }
+}
+
+/* List and Grid: hide the summary and show only the date from the footer */
+[data-view="list"] .view-container .entry-content,
+[data-view="grid"] .view-container .entry-content { display: none; }
+[data-view="list"] .view-container .entry-footer,
+[data-view="grid"] .view-container .entry-footer { font-size: 0; margin-top: 4px; }
+[data-view="list"] .view-container .entry-footer > span:first-child,
+[data-view="grid"] .view-container .entry-footer > span:first-child { font-size: 13px; }
+[data-view="list"] .view-container .entry-footer > span:not(:first-child),
+[data-view="grid"] .view-container .entry-footer > span:not(:first-child) { display: none; }
+
+/* List: small image left, title + date right */
+[data-view="list"] .view-container .post-entry {
+    display: grid;
+    grid-template-columns: 96px 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 16px;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+[data-view="list"] .view-container .entry-cover {
+    grid-row: 1 / span 2;
+    margin: 0;
+}
+[data-view="list"] .view-container .entry-cover img {
+    width: 96px;
+    height: 72px;
+    object-fit: cover;
+}
+[data-view="list"] .view-container .entry-header { grid-column: 2; align-self: end; }
+[data-view="list"] .view-container .entry-footer { grid-column: 2; align-self: start; }
+[data-view="list"] .view-container .entry-header h2 { font-size: 18px; }
+
+/* Grid: smaller cards in two columns */
+[data-view="grid"] .view-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+    margin-bottom: var(--gap);
+}
+[data-view="grid"] .view-container .post-entry { margin: 0; padding: 12px; }
+[data-view="grid"] .view-container .entry-cover { margin-bottom: 10px; }
+[data-view="grid"] .view-container .entry-cover img { aspect-ratio: 4 / 3; object-fit: cover; }
+[data-view="grid"] .view-container .entry-header h2 { font-size: 17px; }
+@media (max-width: 420px) {
+    [data-view="grid"] .view-container { grid-template-columns: 1fr; }
+}
+
+/* Pager: Prev / page info / Show N / Next */
+.view-container .post-entry.pg-hidden { display: none; }
+.pager[hidden] { display: none; }
+.pager .pagination { align-items: center; gap: 12px; }
+.pager .pagination button {
+    color: var(--theme);
+    font: inherit;
+    font-size: 13px;
+    line-height: 36px;
+    background: var(--primary);
+    border-radius: calc(36px / 2);
+    padding: 0 16px;
+    cursor: pointer;
+}
+.pager .next { margin-inline-start: 0; }
+.pager-info {
+    flex: 1;
+    text-align: center;
+    color: var(--secondary);
+    font-size: 13px;
+}
+.pager-size {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--secondary);
+    font-size: 13px;
+}
+.pager-size select {
+    font: inherit;
+    color: var(--primary);
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 4px 6px;
+    cursor: pointer;
+}

@@ -1,0 +1,123 @@
+{{- /* Cards / List / Grid view switcher for the home page and the Categories page */ -}}
+{{- if or .IsHome (and (eq .Kind "taxonomy") (eq .Type "categories")) }}
+<div class="view-toggle" id="view-toggle" role="group" aria-label="Layout">
+  <button type="button" data-view="cards" title="Cards" aria-pressed="false">
+    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="4" y="3" width="16" height="11" rx="2"/><path d="M4 18h16M4 21h10"/></svg>
+    <span>Cards</span>
+  </button>
+  <button type="button" data-view="list" title="List" aria-pressed="false">
+    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="4" width="5" height="5" rx="1"/><rect x="3" y="15" width="5" height="5" rx="1"/><path d="M11 6.5h10M11 17.5h10"/></svg>
+    <span>List</span>
+  </button>
+  <button type="button" data-view="grid" title="Grid" aria-pressed="false">
+    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="1.5"/></svg>
+    <span>Grid</span>
+  </button>
+</div>
+<script>
+(function () {
+  var toggle = document.getElementById('view-toggle');
+  var container = document.querySelector('.view-container');
+  if (!container) {
+    // Home page: gather the post cards into one container so they can be laid out together
+    var entries = document.querySelectorAll('main .post-entry');
+    if (!entries.length) { toggle.remove(); return; }
+    container = document.createElement('div');
+    container.className = 'view-container';
+    entries[0].parentNode.insertBefore(container, entries[0]);
+    entries.forEach(function (e) { container.appendChild(e); });
+  }
+  var slot = document.getElementById('view-slot');
+  if (slot) slot.appendChild(toggle);
+  else container.parentNode.insertBefore(toggle, container);
+
+  var buttons = toggle.querySelectorAll('button');
+  var views = ['cards', 'list', 'grid'];
+  function setView(v, save) {
+    if (views.indexOf(v) === -1) v = 'cards';
+    document.documentElement.setAttribute('data-view', v);
+    buttons.forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.view === v ? 'true' : 'false'); });
+    if (!save) return;
+    try { localStorage.setItem('postView', v); } catch (e) {}
+    var url = new URL(window.location.href);
+    if (v === 'cards') url.searchParams.delete('view'); else url.searchParams.set('view', v);
+    history.replaceState(null, '', url);
+  }
+  buttons.forEach(function (b) {
+    b.addEventListener('click', function () { setView(b.dataset.view, true); });
+  });
+  var saved = null;
+  try { saved = localStorage.getItem('postView'); } catch (e) {}
+  setView(new URLSearchParams(window.location.search).get('view') || saved || 'cards', false);
+})();
+
+// Pagination with a "Show N" dropdown. Only counts cards that aren't hidden by the category filter.
+(function () {
+  var container = document.querySelector('.view-container');
+  if (!container) return;
+  var entries = Array.prototype.slice.call(container.querySelectorAll('.post-entry'));
+
+  var footer = document.createElement('footer');
+  footer.className = 'page-footer pager';
+  footer.innerHTML =
+    '<nav class="pagination">' +
+      '<button type="button" class="prev">«&nbsp;Prev</button>' +
+      '<span class="pager-info"></span>' +
+      '<label class="pager-size">Show <select></select></label>' +
+      '<button type="button" class="next">Next&nbsp;»</button>' +
+    '</nav>';
+  container.parentNode.insertBefore(footer, container.nextSibling);
+  var prevBtn = footer.querySelector('.prev');
+  var nextBtn = footer.querySelector('.next');
+  var info = footer.querySelector('.pager-info');
+  var select = footer.querySelector('select');
+
+  var page = 1;
+  var size = 10;
+  try { size = parseInt(localStorage.getItem('pageSize'), 10) || 10; } catch (e) {}
+
+  function visible() { return entries.filter(function (e) { return !e.hidden; }); }
+
+  function buildOptions(total) {
+    var opts = [];
+    for (var n = 5; n < total; n += 5) opts.push(n);
+    if (total > 0) opts.push(total);           // last option = all visible cards
+    select.innerHTML = opts.map(function (n) {
+      return '<option value="' + n + '">' + (n === total ? n + ' (all)' : n) + '</option>';
+    }).join('');
+    // keep the chosen size if possible, otherwise the largest option that fits
+    var pick = opts[0];
+    opts.forEach(function (n) { if (n <= size) pick = n; });
+    if (size >= total) pick = total;
+    select.value = String(pick);
+    return pick;
+  }
+
+  function render(scroll) {
+    var vis = visible();
+    var total = vis.length;
+    var per = buildOptions(total) || 1;
+    var pages = Math.max(1, Math.ceil(total / per));
+    if (page > pages) page = pages;
+    entries.forEach(function (e) { e.classList.add('pg-hidden'); });
+    vis.slice((page - 1) * per, page * per).forEach(function (e) { e.classList.remove('pg-hidden'); });
+    footer.hidden = total === 0;
+    prevBtn.style.visibility = page > 1 ? 'visible' : 'hidden';
+    nextBtn.style.visibility = page < pages ? 'visible' : 'hidden';
+    info.textContent = pages > 1 ? 'Page ' + page + ' of ' + pages : '';
+    if (scroll) container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  prevBtn.addEventListener('click', function () { page--; render(true); });
+  nextBtn.addEventListener('click', function () { page++; render(true); });
+  select.addEventListener('change', function () {
+    size = parseInt(select.value, 10);
+    try { localStorage.setItem('pageSize', size); } catch (e) {}
+    page = 1;
+    render(false);
+  });
+  document.addEventListener('entries-filtered', function () { page = 1; render(false); });
+  render(false);
+})();
+</script>
+{{- end }}

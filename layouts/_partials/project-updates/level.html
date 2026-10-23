@@ -1,0 +1,90 @@
+{{- /* Renders one folder level of a project's updates. Called recursively for subfolders. */ -}}
+{{- $all := .all }}
+{{- $page := .page }}
+{{- $prefix := .prefix }}
+{{- $items := slice }}
+{{- $dirs := slice }}
+{{- range $all }}
+  {{- if hasPrefix .Name $prefix }}
+    {{- $rest := strings.TrimPrefix $prefix .Name }}
+    {{- if in $rest "/" }}
+      {{- $d := index (split $rest "/") 0 }}
+      {{- if not (in $dirs $d) }}{{ $dirs = $dirs | append $d }}{{ end }}
+    {{- else if ne $rest "index.md" }}
+      {{- $items = $items | append (dict "kind" "update" "date" .Date "page" .) }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- range $dirs }}
+  {{- $dp := printf "%s%s/" $prefix . }}
+  {{- $meta := false }}
+  {{- $latest := false }}
+  {{- $n := 0 }}
+  {{- range $all }}
+    {{- if hasPrefix .Name $dp }}
+      {{- if eq .Name (printf "%sindex.md" $dp) }}
+        {{- $meta = . }}
+      {{- else }}
+        {{- $n = add $n 1 }}
+        {{- if or (not $latest) (.Date.After $latest) }}{{ $latest = .Date }}{{ end }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+  {{- $date := $latest }}
+  {{- if and $meta (not $date) }}{{ $date = $meta.Date }}{{ end }}
+  {{- $title := . | humanize }}
+  {{- if $meta }}{{ with $meta.Title }}{{ $title = . }}{{ end }}{{ end }}
+  {{- $items = $items | append (dict "kind" "group" "date" $date "title" $title "meta" $meta "prefix" $dp "count" $n "slug" .) }}
+{{- end }}
+
+{{- range $i, $it := sort $items "date" "desc" }}
+{{- if eq $it.kind "update" }}
+  {{- $u := $it.page }}
+  {{- $dir := path.Dir $u.Name }}
+  {{- $slug := path.BaseName $u.Name }}
+  {{- $title := $u.Title | default ($slug | humanize) }}
+  {{- $full := site.GetPage (lower (path.Join "/updates" $page.File.ContentBaseName (strings.TrimSuffix ".md" $u.Name))) }}
+  {{- /* Card image: cover.image from the update's front matter, otherwise its first image */ -}}
+  {{- $img := "" }}
+  {{- with $u.Params.cover }}{{ with .image }}{{ $img = . }}{{ end }}{{ end }}
+  {{- if not $img }}{{ with findRESubmatch `<img[^>]*?src="([^"]+)"` $u.Content 1 }}{{ $img = index . 0 1 }}{{ end }}{{ end }}
+  {{- if and $img (not (strings.Contains $img ":")) (not (hasPrefix $img "/")) (ne $dir ".") }}
+    {{- if $page.Resources.Get (path.Join $dir (urls.Parse $img).Path) }}{{ $img = path.Join $dir $img }}{{ end }}
+  {{- end }}
+  {{- $summary := $u.Params.summary | default ($u.Summary | plainify | htmlUnescape | truncate 180) }}
+  <article class="post-entry update-entry" id="update-{{ $slug | urlize }}">
+    {{- with $img }}
+    <figure class="entry-cover"><img loading="lazy" src="{{ . }}" alt="{{ $title }}"></figure>
+    {{- end }}
+    <header class="entry-header">
+      <h2 class="entry-hint-parent">{{ $title }}</h2>
+    </header>
+    {{- with $summary }}
+    <div class="entry-content"><p>{{ . }}</p></div>
+    {{- end }}
+    <footer class="entry-footer">
+      {{- if not $u.Date.IsZero }}<span>{{ $u.Date | time.Format (default ":date_long" site.Params.DateFormat) }}</span>{{ end }}
+      {{- with $u.Params.status }}<span class="update-status">{{ . }}</span>{{ end }}
+    </footer>
+    {{- with $full }}
+    <a class="entry-link" aria-label="open update {{ $title | plainify }}" href="{{ .RelPermalink }}"></a>
+    {{- end }}
+  </article>
+{{- else }}
+  <details class="update-card update-group" id="group-{{ $it.prefix | strings.TrimSuffix "/" | replaceRE "/" "-" | urlize }}"{{ if eq $i 0 }} open{{ end }}>
+    <summary>
+      <span class="update-title">{{ $it.title }}</span>
+      <span class="update-date">{{ $it.count }} update{{ if ne $it.count 1 }}s{{ end }}{{ with $it.date }} · latest {{ . | time.Format (default ":date_long" site.Params.DateFormat) }}{{ end }}</span>
+      {{- with $it.meta }}{{ with .Params.status }}<span class="update-status">{{ . }}</span>{{ end }}{{ end }}
+    </summary>
+    <div class="update-group-body">
+      {{- with $it.meta }}{{ with .Content }}
+      <div class="post-content md-content update-intro">
+        {{ partial "project-updates/body.html" (dict "html" . "dir" (path.Dir $it.meta.Name) "page" $page) }}
+      </div>
+      {{- end }}{{ end }}
+      {{ partial "project-updates/level.html" (dict "all" $all "prefix" $it.prefix "page" $page) }}
+    </div>
+  </details>
+{{- end }}
+{{- end }}

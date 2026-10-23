@@ -1,0 +1,42 @@
+/* Multi-select filter on the Categories page */
+.cat-filter-tags { margin-bottom: 12px; }
+
+.cat-chip {
+    display: block;
+    padding: 4px 10px;
+    background: var(--tertiary);
+    color: var(--primary);
+    border-radius: var(--radius);
+    font: inherit;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.1s, background 0.15s, color 0.15s;
+}
+.cat-chip:hover:not(:disabled) { background: var(--border); }
+.cat-chip:active:not(:disabled) { transform: scale(0.96); }
+.cat-chip[aria-pressed="true"],
+.cat-chip[aria-pressed="true"]:hover {
+    background: var(--primary);
+    color: var(--theme);
+}
+.cat-chip:disabled { opacity: 0.35; cursor: default; }
+
+.cat-filter-status {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: var(--content-gap);
+    color: var(--secondary);
+    font-size: 14px;
+}
+.cat-clear {
+    background: none;
+    color: var(--primary);
+    font: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.cat-entry[hidden], .cat-clear[hidden], .cat-empty[hidden] { display: none; }
+.cat-empty { color: var(--secondary); }
+
+#view-slot { margin-left: auto; }

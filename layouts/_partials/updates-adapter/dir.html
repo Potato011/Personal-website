@@ -1,0 +1,55 @@
+{{- /* Adds pages for one folder of a project's updates, then recurses into subfolders. */ -}}
+{{- $ctx := .ctx }}{{ $proj := .proj }}{{ $projTitle := .projTitle }}{{ $rel := .rel }}
+{{- $diskDir := path.Join "content/posts" $proj $rel }}
+{{- $depth := 0 }}{{ if $rel }}{{ $depth = len (split $rel "/") }}{{ end }}
+{{- range os.ReadDir $diskDir }}
+  {{- $name := .Name }}
+  {{- if .IsDir }}
+    {{- $sub := path.Join $rel $name }}
+    {{- $ctx.AddPage (dict "path" (path.Join $proj $sub) "kind" "section" "title" ($name | humanize)) }}
+    {{- partial "updates-adapter/dir.html" (dict "ctx" $ctx "proj" $proj "projTitle" $projTitle "rel" $sub) }}
+  {{- else if and (strings.HasSuffix $name ".md") (ne $name "index.md") }}
+    {{- $raw := os.ReadFile (path.Join $diskDir $name) }}
+    {{- $fm := dict }}
+    {{- $body := $raw }}
+    {{- with findRESubmatch `(?s)^---\r?\n(.*?)\r?\n---\r?\n?(.*)$` $raw }}
+      {{- $fm = transform.Unmarshal (index . 0 1) }}
+      {{- $body = index . 0 2 }}
+    {{- end }}
+    {{- if not $fm.draft }}
+      {{- /* Point relative image/link paths at the right folder. The page lives one level
+             below its file's folder, so "photo.jpg" becomes "../photo.jpg"; an image found in a
+             parent folder (e.g. the project folder) gets one extra "../" per level. */ -}}
+      {{- range (findRESubmatch `(src="|\]\()([^"):#/.\s][^"):\s]*)` $body) | uniq }}
+        {{- $m := . }}
+        {{- $val := index $m 2 }}
+        {{- $file := (urls.Parse $val).Path }}
+        {{- $found := false }}
+        {{- $up := "../" }}
+        {{- $dir := $rel }}
+        {{- range seq 0 $depth }}
+          {{- if not $found }}
+            {{- if fileExists (path.Join "content/posts" $proj $dir $file) }}
+              {{- $found = printf "%s%s" $up $val }}
+            {{- else }}
+              {{- $up = printf "%s../" $up }}
+              {{- $dir = path.Dir $dir }}{{ if eq $dir "." }}{{ $dir = "" }}{{ end }}
+            {{- end }}
+          {{- end }}
+        {{- end }}
+        {{- with $found }}{{ $body = replace $body (index $m 0) (printf "%s%s" (index $m 1) .) }}{{ end }}
+      {{- end }}
+      {{- $back := "../" }}{{ range seq $depth }}{{ $back = printf "%s../" $back }}{{ end }}
+      {{- $body = printf "[← Back to %s](%s#updates)\n\n%s" $projTitle $back $body }}
+      {{- $slug := strings.TrimSuffix ".md" $name }}
+      {{- $page := dict
+            "path" (path.Join $proj $rel $slug)
+            "kind" "page"
+            "title" ($fm.title | default ($slug | humanize))
+            "params" (dict "ShowBreadCrumbs" false "status" $fm.status "project" $proj)
+            "content" (dict "mediaType" "text/markdown" "value" $body) }}
+      {{- with $fm.date }}{{ $page = merge $page (dict "dates" (dict "date" (time.AsTime .))) }}{{ end }}
+      {{- $ctx.AddPage $page }}
+    {{- end }}
+  {{- end }}
+{{- end }}

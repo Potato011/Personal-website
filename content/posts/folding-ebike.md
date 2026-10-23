@@ -1,5 +1,6 @@
 ---
 title: "Folding Touring Ebike"
+categories: ["Electrical", "Bike"]
 date: "2024-10-23T03:24:40Z"
 draft: false
 cover:

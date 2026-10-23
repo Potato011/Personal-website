@@ -1,0 +1,4 @@
+/* PaperMod hides cover images on tag/category pages; show them like the home page */
+.tag-entry .entry-cover {
+    display: block;
+}

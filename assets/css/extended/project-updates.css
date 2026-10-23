@@ -1,0 +1,57 @@
+/* Project diary / status update cards */
+.project-updates { margin-top: 40px; }
+.project-updates > h2 { font-size: 28px; margin-bottom: 16px; }
+.update-count {
+    font-size: 14px;
+    vertical-align: middle;
+    padding: 2px 8px;
+    border-radius: var(--radius);
+    background: var(--tertiary);
+    color: var(--secondary);
+}
+.update-card {
+    margin-bottom: 12px;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+}
+.update-card > summary {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px 12px;
+    padding: 14px 18px;
+    cursor: pointer;
+    list-style: none;
+}
+.update-card > summary::-webkit-details-marker { display: none; }
+.update-card > summary::before {
+    content: "▸";
+    color: var(--secondary);
+    transition: transform 0.15s;
+}
+.update-card[open] > summary::before { transform: rotate(90deg); }
+.update-date { color: var(--secondary); font-size: 14px; }
+.update-title { font-weight: 600; font-size: 18px; color: var(--primary); }
+.update-status {
+    margin-left: auto;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: var(--radius);
+    background: var(--tertiary);
+    color: var(--primary);
+}
+.update-card .update-body { padding: 0 18px 18px; }
+
+/* Group cards (folders) and their nested cards */
+.update-group > summary .update-title { font-size: 20px; }
+.update-group-body { padding: 0 14px 6px; }
+.update-group-body .update-card { background: var(--theme); }
+.update-group-body .update-group-body .update-card { background: var(--entry); }
+.update-intro { padding: 0 4px 12px; }
+
+/* Update cards: same look as the post cards on the home page */
+.update-entry .entry-footer { display: flex; align-items: center; gap: 10px; }
+.update-entry .update-status { margin-left: 0; }
+.update-group-body .update-entry { background: var(--entry); }
+.update-group-body { padding: 4px 14px 2px; }

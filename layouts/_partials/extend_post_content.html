@@ -1,0 +1,35 @@
+{{- /*
+  Project diary / status updates.
+
+  Inside a project folder (the one holding index.md):
+    - every .md file is an update card
+    - every subfolder is a group card, and the files/folders inside it are its subcards
+      (groups can be nested to any depth)
+    - an optional index.md inside a subfolder gives that group a title, status and intro text
+  Cards are sorted newest first; the newest card at each level starts open.
+  Images can live next to the update that uses them; relative paths keep working when
+  files are moved into a subfolder, as long as the images move with them.
+  Posts without update files are unaffected.
+*/ -}}
+{{- $all := where (.Resources.ByType "page") "Params.draft" "!=" true }}
+{{- if $all }}
+{{- $count := 0 }}
+{{- range $all }}{{ if ne (path.Base .Name) "index.md" }}{{ $count = add $count 1 }}{{ end }}{{ end }}
+<section class="project-updates">
+  <h2 id="updates">Updates <span class="update-count">{{ $count }}</span></h2>
+  {{ partial "project-updates/level.html" (dict "all" $all "prefix" "" "page" .) }}
+</section>
+<script>
+  // A link to a specific card (…/#update-name or #group-name) opens it and every card around it
+  (function () {
+    function openTarget() {
+      var el = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)));
+      if (!el) return;
+      for (var p = el; p; p = p.parentElement) if (p.tagName === 'DETAILS') p.open = true;
+      el.scrollIntoView();
+    }
+    window.addEventListener('hashchange', openTarget);
+    openTarget();
+  })();
+</script>
+{{- end }}

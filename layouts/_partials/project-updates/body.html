@@ -1,0 +1,15 @@
+{{- /* Makes relative image/link paths in an update work from the project page:
+       src="photo.jpg" in version1/log.md becomes src="version1/photo.jpg" when
+       version1/photo.jpg exists. Paths to files elsewhere are left unchanged. */ -}}
+{{- $html := .html }}
+{{- $page := .page }}
+{{- $dir := .dir }}
+{{- if and $dir (ne $dir ".") }}
+  {{- range (findRESubmatch `(src|href)="([^"#:/.][^":]*)"` $html) | uniq }}
+    {{- $val := index . 2 }}
+    {{- if $page.Resources.Get (path.Join $dir (urls.Parse $val).Path) }}
+      {{- $html = replace $html (index . 0) (printf `%s="%s/%s"` (index . 1) $dir $val) }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- $html | safeHTML }}

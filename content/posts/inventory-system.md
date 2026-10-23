@@ -1,6 +1,6 @@
 ---
 title: "PotatoDB - Barcode Based Room Inventory System"
-categories: ["Software", Database"]
+categories: ["Software", "Database"]
 date: "2024-09-07T12:30:40Z"
 draft: false
 cover: 

@@ -8,7 +8,7 @@ cover:
   hidden: false
   hiddenInList: false
   hiddenInSingle: false
-  relative: true
+  relative: false
 ---
 
 # Week 1
